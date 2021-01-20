@@ -34,7 +34,7 @@
   top: 0;
   left: 0;
   background-color: rgb(255, 255, 255);
-  overflow-x: hidden;
+  overflow: hidden;
   transition: 0.5s;
   padding-top: 60px;
 }
@@ -58,7 +58,6 @@
   right: 25px;
   left: 0;
   font-size: 36px;
-  /* margin-left: 50px; */
   font-weight: 600;
 }
 
@@ -72,22 +71,18 @@
   color: #80BB2d;
 }
 
-.cat-menu {
-  margin-top: 17px;
-}
-
 .cat-menu div {
   padding: 10px 10px;
 }
 
-@media screen and (max-height: 450px) {
+/* @media (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
   }
   .sidenav a {
     font-size: 18px;
   }
-}
+} */
 
 .link-menu {
   cursor: pointer;
