@@ -103,12 +103,4 @@ a.backtotop i {
     background: #3084bb;
 }
 
-/* footer subs button */
-.kreen-newsletter.style-01 .email-newsletter {
-    padding-right: 50px;
-}
-.kreen-newsletter.style-01 .submit-newsletter {
-    padding: 0 16px;
-    min-width: auto;
-    font-size: 18px;
-}
+

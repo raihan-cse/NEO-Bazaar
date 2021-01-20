@@ -321,10 +321,9 @@
 /* add to cart fixed positon */
 .meta-dreaming.p-fixed {
   position: fixed;
-  top: 50%;
+  top: 51.5%;
   right: 0;
   z-index: 9999;
-  transform: translateY(-50%);
 }
 
 .meta-dreaming.p-fixed .block-dreaming {
@@ -433,6 +432,15 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 600;
+}
+
+.kreen-newsletter.style-01 .email-newsletter {
+  padding-right: 50px;
+}
+.kreen-newsletter.style-01 .submit-newsletter {
+  padding: 0 16px;
+  min-width: auto;
+  font-size: 18px;
 }
 
 
