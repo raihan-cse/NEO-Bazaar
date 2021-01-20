@@ -40,6 +40,14 @@ function openNav() {
     $(".btn-back").click(function() {
       $(".cat-menu-more").css("transform","translateX(100%)");
     })
+
+    //select quantity options
+    $(".qt-select-open").click(function() {
+      $(".qt-drop-wrapper").css("transform","translateX(0)");
+    })
+    $(".qt-btn-close").click(function() {
+      $(".qt-drop-wrapper").css("transform","translateX(100%)");
+    })
   })
 
 

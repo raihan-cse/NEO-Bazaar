@@ -568,6 +568,20 @@ product quick view
   margin-bottom: 0;
 }
 
+/* ============================
+quantity quick select option
+============================ */
+.qt-drop-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 2;
+  transform: translateY(100%);
+  transition: all .5s ease-in-out;
+}
 
 
 
