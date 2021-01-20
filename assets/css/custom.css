@@ -545,6 +545,27 @@ a.backtotop:hover > i {
 
 
 
+/* =========================
+for different font family
+========================= */
+.kreen-heading.style-01 .title {
+  font-family: 'Kaushan Script', cursive;
+}
+.kreen-heading.style-01 .title {
+  font-family: 'Yellowtail', cursive;
+}
+.kreen-heading.style-01 .title {
+  font-family: 'Damion', cursive;
+}
+.kreen-heading.style-01 .title {
+  font-family: 'Allura', cursive;
+}
+.kreen-heading.style-01 .title {
+  font-family: 'Yesteryear', cursive;
+}
+
+
+
 
 
 
