@@ -18,8 +18,9 @@ function openNav() {
     //document.getElementById("dark-bg").style.display = 'none';
   }
 
-  //header search click to expand 
+  
   $(document).ready(function () {
+    //header search click to expand 
     $(".cs-btn-submit").click(function() {
       $(".cs-txt-livesearch").addClass("sopen");
       $(".cs-btn-close").addClass("cs-show");
@@ -31,6 +32,15 @@ function openNav() {
       $(".cs-btn-close").removeClass("cs-show");
       $(".cs-btn-submit").removeClass("cs-hide");
     })
+
+    //more categories
+    $(".open-more").click(function() {
+      console.log("open more");
+    })
   })
+
+
+  
+
 
 

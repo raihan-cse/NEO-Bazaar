@@ -126,3 +126,23 @@ a.backtotop i {
 }
 
 
+/* more categories */
+.cat-menu-more {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    transform: translateY(100%);
+  }
+  
+  .cat-more-btn-back {
+    display: flex;
+  }
+  
+  .cat-more-btn-back .btn-back {
+    width: 40px;
+  }
+
+

@@ -214,6 +214,8 @@
 }
 
 
+
+
 /* =============================
  design start for main index page
  ================================ */
@@ -319,10 +321,10 @@
 /* add to cart fixed positon */
 .meta-dreaming.p-fixed {
   position: fixed;
-  top: 40%;
-  bottom: 50%;
+  top: 50%;
   right: 0;
   z-index: 9999;
+  transform: translateY(-50%);
 }
 
 .meta-dreaming.p-fixed .block-dreaming {
@@ -334,7 +336,7 @@
   padding: 0;
   /* background-color: #008F4C; */
   background-color: rgba(0, 143, 76, .9);
-  border-radius: 4px 0 0 4px;
+  border-radius: 8px 0 0 8px;
 }
 
 .meta-dreaming.p-fixed .block-dreaming .block-link {
