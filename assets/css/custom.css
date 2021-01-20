@@ -535,6 +535,15 @@ a.backtotop:hover > i {
 } */
 
 
+/* product element style */
+.product-item.style-04 .product-thumb {
+  margin-bottom: 14px;
+}
+.product-item.style-04 .group-button {
+  bottom: 0;
+}
+
+
 
 
 
