@@ -335,7 +335,7 @@
   padding: 0;
   /* background-color: #008F4C; */
   background-color: rgba(0, 143, 76, .9);
-  border-radius: 8px 0 0 8px;
+  border-radius: 12px 0 0 12px;
 }
 
 .meta-dreaming.p-fixed .block-dreaming .block-link {
