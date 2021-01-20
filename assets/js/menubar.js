@@ -35,7 +35,10 @@ function openNav() {
 
     //more categories
     $(".open-more").click(function() {
-      console.log("open more");
+      $(".cat-menu-more").css("transform","translateX(0)");
+    })
+    $(".btn-back").click(function() {
+      $(".cat-menu-more").css("transform","translateX(100%)");
     })
   })
 

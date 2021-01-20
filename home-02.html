@@ -350,55 +350,25 @@
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="cat-menu-more">
+                                    <!-- <div class="cat-menu-more">
                                         <div class="cat-more-btn-back">
                                             <h4 class="btn-back">
                                                 <span><i class="fa fa-angle-left"></i></span>
                                             </h4>
                                             <h3>more categories</h3>
                                         </div>
-                                        <div id="cat1-menu" class="categories">
-                                            <span class="link-menu">Groceries
-                                                <i class="fa fa-angle-right"></i>
-                                            </span>
-                                            <div class="cat1-extra">
-                                                <div class="row">
-                                                    <div class="cat-links col-md-3">
-                                                        <h5>Cooking </h5>
-                                                        <a href="home-01.html">Home 1</a>
-                                                        <a href="home-02.html">Home 2</a>
-                                                        <a href="">link 3</a>
-                                                        <a href="">link 4</a>
-                                                        <a href="">link 5</a>
-                                                    </div>
-                                                    <div class="cat-links col-md-3">
-                                                        <h5>Oil </h5>
-                                                        <a href="">link 1</a>
-                                                        <a href="">link 2</a>
-                                                        <a href="">link 3</a>
-                                                        <a href="">link 4</a>
-                                                        <a href="">link 5</a>
-                                                    </div>
-                                                    <div class="cat-links col-md-3">
-                                                        <h5>Rice </h5>
-                                                        <a href="">link 1</a>
-                                                        <a href="">link 2</a>
-                                                        <a href="">link 3</a>
-                                                        <a href="">link 4</a>
-                                                        <a href="">link 5</a>
-                                                    </div>
-                                                    <div class="cat-links col-md-3">
-                                                        <h5>Miscellaneous</h5>
-                                                        <a href="">link 1</a>
-                                                        <a href="">link 2</a>
-                                                        <a href="">link 3</a>
-                                                        <a href="">link 4</a>
-                                                        <a href="">link 5</a>
-                                                    </div>
+                                        <div class="menu-more-list">
+                                            <div class="more-link-wrapper">
+                                                <h5>categori 1</h5>
+                                                <div class="more-link-list">
+                                                    <ul>
+                                                        <li><a href="#">link 1</a></li>
+                                                        <li><a href="#">link 2</a></li>
+                                                    </ul>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <span class="sidenav-icon" style="font-size:25px;cursor:pointer"
                                     onclick="openNav()">
@@ -771,7 +741,7 @@
                                         <a href="#"
                                            class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
                                             cart</a></div>
-                                    <a href="#" class="button yith-wcqv-button">Quick View</a>
+                                    <a href="#" class="button yith-wcqv-button" role="button" data-toggle="modal" data-target="#productQuickViewModal">Quick View</a>
                                     <div class="yith-wcwl-add-to-wishlist">
                                         <div class="yith-wcwl-add-button show">
                                             <a href="#" class="add_to_wishlist">Add to Wishlist</a>
@@ -1734,6 +1704,92 @@
 <a href="#" class="backtotop active">
     <i class="fa fa-angle-up"></i>
 </a>
+<!-- Quick view Modal -->
+<div class="modal fade" id="productQuickViewModal" tabindex="-1" role="dialog" aria-labelledby="productQuickViewModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="modal-body main-contain-summary">
+        <div class="contain-left has-gallery">
+            <div class="single-left">
+                <div class="">
+                    <figure class="">
+                        <img src="https://via.placeholder.com/1024x768" class="" alt="img">
+                    </figure>
+                </div>
+            </div>
+            <div class="summary entry-summary">
+                <div class="flash">
+                    <span class="onnew"><span class="text">New</span></span></div>
+                <h1 class="product_title entry-title">T-shirt with skirt</h1>
+                <p class="price"><span class="kreen-Price-amount amount"><span
+                        class="kreen-Price-currencySymbol">$</span>146.00</span> – <span
+                        class="kreen-Price-amount amount"><span
+                        class="kreen-Price-currencySymbol">$</span>185.00</span></p>
+                <p class="stock in-stock">
+                    Availability: <span> In stock</span>
+                </p>
+                <div class="kreen-product-details__short-description">
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+                <form class="variations_form cart">
+                    <div class="single_variation_wrap">
+                        <div class="kreen-variation single_variation"></div>
+                        <div class="kreen-variation-add-to-cart variations_button kreen-variation-add-to-cart-disabled">
+                            <div class="quantity">
+                                <span class="qty-label">Quantiy:</span>
+                                <div class="control">
+                                    <a class="btn-number qtyminus quantity-minus" href="#">-</a>
+                                    <input type="text" data-step="1" min="0" max="" name="quantity[25]" value="0" title="Qty" class="input-qty input-text qty text" size="4" pattern="[0-9]*" inputmode="numeric">
+                                    <a class="btn-number qtyplus quantity-plus" href="#">+</a>
+                                </div>
+                            </div>
+                            <button type="submit"
+                                    class="single_add_to_cart_button button alt disabled kreen-variation-selection-needed">
+                                Add to cart
+                            </button>
+                            <input name="add-to-cart" value="27" type="hidden">
+                            <input name="product_id" value="27" type="hidden">
+                            <input name="variation_id" class="variation_id" value="0" type="hidden">
+                        </div>
+                    </div>
+                </form>
+                <div class="clear"></div>
+                <div class="product_meta">
+                    <div class="wcml-dropdown product wcml_currency_switcher">
+                        <ul>
+                            <li class="wcml-cs-active-currency">
+                                <a class="wcml-cs-item-toggle">USD</a>
+                                <ul class="wcml-cs-submenu">
+                                    <li>
+                                        <a>EUR</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <span class="sku_wrapper">SKU: <span class="sku">885B712</span></span>
+                    <span class="posted_in">Categories: <a
+                            href="#"
+                            rel="tag">Leafy green</a>, <a
+                            href="#" rel="tag">New arrivals</a>, <a
+                            href="#" rel="tag">Summer Sale</a></span>
+                    <span class="tagged_as">Tags: <a href="#"
+                                                     rel="tag">Leafy green</a>, <a
+                            href="#" rel="tag">Sock</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+    </div> -->
+    </div>
+</div>
+</div>
 <script src="assets/js/jquery-1.12.4.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/chosen.min.js"></script>

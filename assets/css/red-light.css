@@ -134,7 +134,9 @@ a.backtotop i {
     left: 0;
     right: 0;
     background-color: #fff;
-    transform: translateY(100%);
+    transform: translateX(100%);
+    transition: all .5s ease-in-out;
+    overflow: hidden;
   }
   
   .cat-more-btn-back {
@@ -143,6 +145,15 @@ a.backtotop i {
   
   .cat-more-btn-back .btn-back {
     width: 40px;
+  }
+
+  .menu-more-list {
+    width :280px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 280px;
+    background-color: #000;
   }
 
 
