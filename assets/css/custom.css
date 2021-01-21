@@ -578,9 +578,52 @@ quantity quick select option
   bottom: 0;
   left: 0;
   background-color: #fff;
+  padding: 4px 16px 8px;
   z-index: 2;
   transform: translateY(100%);
   transition: all .5s ease-in-out;
+}
+.qt-btn-close {
+  text-align: right;
+}
+.qt-btn-close span {
+  font-size: 17px;
+}
+.qt-btn-close .qt-close {
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.select-weight-wrapper {
+  margin: 24px 0;
+}
+.select-weight-wrapper label {
+  display: block;
+}
+.select-weight-wrapper select {
+  width: 100%;
+}
+.qt-price-wrapper {
+  margin-bottom: 16px;
+}
+.qt-cart-wrapper .add-to-cart {
+  display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
+    background-color: #3084bb;
+    color: #fff;
+    border-radius: 50%;
+    margin: 0 4px;
+    vertical-align: top;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+}
+.qt-cart-wrapper .add-to-cart:hover {
+  background-color: #000;
+}
+.qt-cart-wrapper .add-to-cart:hover a {
+  color: #fff;
 }
 
 

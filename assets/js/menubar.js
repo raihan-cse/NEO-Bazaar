@@ -43,10 +43,10 @@ function openNav() {
 
     //select quantity options
     $(".qt-select-open").click(function() {
-      $(".qt-drop-wrapper").css("transform","translateX(0)");
+      $(".qt-drop-wrapper").css("transform","translateY(0)");
     })
     $(".qt-btn-close").click(function() {
-      $(".qt-drop-wrapper").css("transform","translateX(100%)");
+      $(".qt-drop-wrapper").css("transform","translateY(100%)");
     })
   })
 
