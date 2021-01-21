@@ -98,7 +98,12 @@ a.backtotop:hover {
 a.backtotop i {
     color: #3084bb;
 }
-
+.stock.in-stock span {
+    color: #3084bb;
+}
+.entry-summary .cart .single_add_to_cart_button:hover {
+    background-color: #3084bb;
+}
 .view-btn-inner a {
     background: #3084bb;
 }

@@ -567,6 +567,9 @@ product quick view
 .contain-left .entry-summary {
   margin-bottom: 0;
 }
+.entry-summary .kreen-product-details__short-description {
+  padding-bottom: 12px;
+}
 
 /* ============================
 quantity quick select option
