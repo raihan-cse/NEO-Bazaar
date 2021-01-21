@@ -146,8 +146,10 @@ a.backtotop i {
   .cat-more-btn-back .btn-back {
     width: 40px;
   }
-
   .menu-more-list {
+      position: relative;
+  }
+  .menu-more-list .more-link-list {
     width :280px;
     height: 200px;
     position: absolute;

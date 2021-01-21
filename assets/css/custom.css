@@ -594,13 +594,13 @@ quantity quick select option
   font-weight: 500;
   cursor: pointer;
 }
-.select-weight-wrapper {
+.qt-drop-wrapper .select-weight-wrapper {
   margin: 24px 0;
 }
-.select-weight-wrapper label {
+.qt-drop-wrapper .select-weight-wrapper label {
   display: block;
 }
-.select-weight-wrapper select {
+.qt-drop-wrapper .select-weight-wrapper select {
   width: 100%;
 }
 .qt-price-wrapper {
