@@ -48,8 +48,11 @@ function openNav() {
     $(".qt-btn-close").click(function() {
       $(".qt-drop-wrapper").css("transform","translateY(100%)");
     })
+
+
   })
 
+  
 
   
 
