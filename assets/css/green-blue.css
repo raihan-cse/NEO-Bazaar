@@ -41,6 +41,9 @@ a:hover, a:focus, a:active {
 .owl-slick .slick-arrow:hover {
     color: rgb(48, 132, 187);
 }
+.kreen-heading.style-01 .title {
+    background-image: url(../images/title-bg-blue.png);
+}
 .kreen-heading.style-01 .title::before {
     border-bottom: 4px solid #3084bb;
 }
