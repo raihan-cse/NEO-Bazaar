@@ -114,4 +114,18 @@ a.backtotop i {
     background: #3084bb;
 }
 
+/* shop page */
+.page-title::before {
+    background-color: #3084bb;
+}
+
+.grid-view-mode .modes-mode:hover, .grid-view-mode .modes-mode:focus, .grid-view-mode .modes-mode:active, .grid-view-mode .modes-mode.active {
+    border-color: #3084bb;
+    background-color: #3084bb;
+}
+.kreen-pagination span.page-numbers.current, .kreen-pagination span.page-numbers:hover, .kreen-pagination a.page-numbers:hover, .kreen-pagination a.page-numbers:hover, .kreen-pagination li .page-numbers.current, .kreen-pagination li .page-numbers:hover, .comments-pagination .page-numbers.current, .comments-pagination a.page-numbers:hover, .post-pagination > span:not(.title), .post-pagination a span:hover, .pagination .page-numbers.current, .pagination .page-numbers:hover {
+    border-color: #3084bb;
+    background-color: #3084bb;
+}
+
 
