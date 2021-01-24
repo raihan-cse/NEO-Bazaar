@@ -101,6 +101,9 @@ a.backtotop i {
 .stock.in-stock span {
     color: #3084bb;
 }
+.qt-btn-ad-to-cart {
+    background-color: #3084bb;
+}
 .entry-summary .cart .single_add_to_cart_button:hover {
     background-color: #3084bb;
 }

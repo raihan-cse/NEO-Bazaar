@@ -609,7 +609,7 @@ quantity quick select option
 .qt-price-wrapper {
   margin-bottom: 16px;
 }
-.qt-cart-wrapper .add-to-cart {
+/* .qt-cart-wrapper .add-to-cart {
   display: inline-block;
     box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
     background-color: #3084bb;
@@ -627,6 +627,41 @@ quantity quick select option
 }
 .qt-cart-wrapper .add-to-cart:hover a {
   color: #fff;
+} */
+
+.qt-btn-ad-to-cart {
+  vertical-align: middle;
+  height: 46px;
+  line-height: 46px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 18px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 30px;
+  cursor: pointer;
+  pointer-events: auto;
+  -webkit-transition: all 0.7s ease 0s;
+  -moz-transition: all 0.7s ease 0s;
+  -o-transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s;
+}
+
+.qt-btn-ad-to-cart:hover {
+  background-color: #000;
+}
+
+.qt-btn-ad-to-cart:before {
+  font-weight: normal;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 9px;
+    font-family: 'Pe-icon-7-stroke', sans-serif;
+    content: "\e66e";
+    font-size: 21px;
 }
 
 
