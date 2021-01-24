@@ -239,6 +239,9 @@
 .header-logo img {
   width: 98px;
 }
+.header-middle-inner > .header-logo {
+  vertical-align: middle;
+}
 
 /* header user */
 .meta-dreaming .block-dreaming {
@@ -663,8 +666,75 @@ quantity quick select option
     content: "\e66e";
     font-size: 21px;
 }
+.qt-ad-to-cart {
+  position: relative;
+  overflow: hidden;
+}
+
+.qt-ad-to-cart div.quantity {
+  position: absolute;
+  left: 37px;
+  top: 100%;
+  width: 112px;
+  border: none;
+  width: auto;
+  transition: all .5s ease-in-out;
+}
+
+.qt-ad-to-cart div.quantity .input-qty {
+  width: 85px;
+}
 
 
+
+.qt-form div.quantity .btn-number.quantity-plus:hover::before {
+  color: #000;
+}
+.qt-form div.quantity .btn-number.quantity-minus:hover::before {
+  color: #000;
+}
+.qt-form div.quantity .btn-number.quantity-plus::before {
+  content: "\f067";
+  color: #fff;
+}
+.qt-form div.quantity .btn-number.quantity-minus::before {
+  content: "\f068";
+  color: #fff;
+}
+
+div.quantity .btn-number:hover {
+  color: #000;
+}
+.product-item .variations_form.qt-form {
+  left: auto;
+  right: auto;
+  top: auto;
+}
+.qt-form div.quantity {
+  /* background-color: #80BB2d; */
+  /* border: none; */
+  width: 108px;
+  margin-right: 4px;
+  overflow: hidden;
+  border: 1px solid #3084bb;
+}
+.qt-form div.quantity .input-qty {
+  height: 40px;
+  line-height: 40px;
+  width: 46px;
+}
+
+.qt-form div.quantity .btn-number {
+  line-height: 40px;
+  height: 40px;
+  background-color: #3084bb;
+}
+
+button, input[type="submit"], input[type="button"], .dreaming-btn {
+  background-color: #3084bb;
+  opacity: 1 !important;
+  cursor: pointer;
+}
 
 
 

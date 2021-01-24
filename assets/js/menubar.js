@@ -41,12 +41,25 @@ function openNav() {
       $(".cat-menu-more").css("transform","translateX(100%)");
     })
 
-    //select quantity options
-    $(".qt-select-open").click(function() {
-      $(".qt-drop-wrapper").css("transform","translateY(0)");
+    //select multiple quantity options
+    $(".qt-select-open.qt-multiple-open").click(function() {
+      $(".qt-drop-wrapper.qt-multiple").css("transform","translateY(0)");
     })
-    $(".qt-btn-close").click(function() {
-      $(".qt-drop-wrapper").css("transform","translateY(100%)");
+    $(".qt-btn-close.qt-multiple-close").click(function() {
+      $(".qt-drop-wrapper.qt-multiple").css("transform","translateY(100%)");
+    })
+
+    //select single quantity options
+    $(".qt-select-open.qt-single-open").click(function() {
+      $(".qt-drop-wrapper.qt-single").css("transform","translateY(0)");
+    })
+    $(".qt-btn-close.qt-single-close").click(function() {
+      $(".qt-drop-wrapper.qt-single").css("transform","translateY(100%)");
+    })
+
+    //open cart quantity
+    $(".qt-btn-ad-to-cart").click(function() {
+      $("div.quantity").css("top","0");
     })
 
 
