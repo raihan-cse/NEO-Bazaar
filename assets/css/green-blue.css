@@ -140,4 +140,19 @@ div.quantity .btn-number {
     background-color: #3084bb;
 }
 
+/* single product page */
+.entry-summary .kreen-share-socials {
+    background: #3084bb;
+}
+.dreaming-tabs li a::before {
+    border-color:  #3084bb;
+}
+.block-title .product-grid-title::before, .block-title .product-grid-title::after {
+    background-color: #3084bb;
+}
+.comment-form .form-submit #submit:hover {
+    background-color: rgb(27, 27, 27);
+}
+
+
 
