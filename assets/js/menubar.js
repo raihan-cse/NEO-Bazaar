@@ -58,11 +58,19 @@ function openNav() {
     })
 
     //open cart quantity
+    // $(".qt-btn-ad-to-cart.cart-multiple").click(function() {
+    //   $("div.quantity.multiple-quantity").css("top","0");
+    // })
+    // $(".qt-btn-ad-to-cart.cart-single").click(function() {
+    //   $("div.quantity.single-quantity").css("top","0");
+    // })
+
+    //open cart quantity
     $(".qt-btn-ad-to-cart.cart-multiple").click(function() {
-      $("div.quantity.multiple-quantity").css("top","0");
+      $(".quantity-wrapper.multiple-quantity").css("top","0");
     })
     $(".qt-btn-ad-to-cart.cart-single").click(function() {
-      $("div.quantity.single-quantity").css("top","0");
+      $(".quantity-wrapper.single-quantity").css("top","0");
     })
 
 
