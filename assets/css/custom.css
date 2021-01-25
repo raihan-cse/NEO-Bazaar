@@ -690,9 +690,6 @@ div.quantity .btn-number {
   color: #fff;
   transition: all .5s ease-in-out;
 }
-/* div.quantity:hover {
-  border-color: #000;
-} */
 div.quantity .btn-number:hover {
   background-color: #000;
 }
