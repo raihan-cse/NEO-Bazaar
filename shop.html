@@ -691,14 +691,14 @@
                                              src="assets/images/apro13-1-270x350.jpg"
                                              alt="Wanuts" width="270" height="350">
                                     </a>
-                                    <div class="qt-drop-wrapper">
-                                        <div class="qt-btn-close">
+                                    <div class="qt-drop-wrapper qt-multiple">
+                                        <div class="qt-btn-close qt-multiple-close">
                                             <span>Close </span>
                                             <span class="qt-close">&times;</span>
                                         </div>
                                         <div class="select-weight-wrapper">
                                             <form action="#">
-                                                <label for="">Qunatity:</label>
+                                                <label for="">Weight:</label>
                                                 <select name="" id="">
                                                     <option value="Choose an Option">Choose an Option</option>
                                                     <option value="100gm">100gm</option>
@@ -710,20 +710,52 @@
                                             <span class="price qt-price">
                                                 <del>
                                                     <span class="kreen-Price-amount amount">
-                                                        <span class="kreen-Price-currencySymbol">$</span>
+                                                        <span class="kreen-Price-currencySymbol">৳</span>
                                                         109.00
                                                     </span>
                                                 </del>
                                                 <ins>
                                                     <span class="kreen-Price-amount amount">
-                                                        <span class="kreen-Price-currencySymbol">$</span>
+                                                        <span class="kreen-Price-currencySymbol">৳</span>
                                                         89.00
                                                     </span>
                                                 </ins>
                                             </span>
                                         </div>
+                                        <!-- <form class="variations_form qt-form cart">
+                                            <div class="single_variation_wrap">
+                                                <div class="kreen-variation single_variation"></div>
+                                                <div class="kreen-variation-add-to-cart variations_button kreen-variation-add-to-cart-disabled">
+                                                    <div class="quantity">
+                                                        <span class="qty-label">Quantiy:</span>
+                                                        <div class="control">
+                                                            <a class="btn-number qtyminus quantity-minus" href="#">-</a>
+                                                            <input type="text" data-step="1" min="0" max="" name="quantity[25]" value="0" title="Qty" class="input-qty input-text qty text" size="4" pattern="[0-9]*" inputmode="numeric">
+                                                            <a class="btn-number qtyplus quantity-plus" href="#">+</a>
+                                                        </div>
+                                                    </div>
+                                                    <button type="submit"
+                                                            class="single_add_to_cart_button button alt kreen-variation-selection-needed">
+                                                        Add to cart
+                                                    </button>
+                                                    <input name="add-to-cart" value="27" type="hidden">
+                                                    <input name="product_id" value="27" type="hidden">
+                                                    <input name="variation_id" class="variation_id" value="0" type="hidden">
+                                                </div>
+                                            </div>
+                                        </form> -->
                                         <div class="qt-ad-to-cart">
-                                            <button type="submit" class="qt-btn-ad-to-cart">Add to cart</button>
+                                            <button type="submit" class="qt-btn-ad-to-cart cart-multiple">Add to cart</button>
+                                            <div class="quantity-wrapper multiple-quantity">
+                                                <div class="quantity ">
+                                                    <span class="qty-label">Quantiy:</span>
+                                                    <div class="control">
+                                                        <a class="btn-number qtyminus quantity-minus" href="#">-</a>
+                                                        <input type="text" data-step="1" min="0" max="" name="quantity[25]" value="0" title="Qty" class="input-qty input-text qty text" size="4" pattern="[0-9]*" inputmode="numeric">
+                                                        <a class="btn-number qtyplus quantity-plus" href="#" style="pointer-events: auto;">+</a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="flash">
@@ -732,7 +764,7 @@
                                     <div class="group-button">
                                         <div class="add-to-cart">
                                             <a href="#" onclick="return false"
-                                               class="button product_type_simple add_to_cart_button ajax_add_to_cart qt-select-open">Add to
+                                               class="button product_type_simple add_to_cart_button ajax_add_to_cart qt-select-open qt-multiple-open">Add to
                                                 cart</a></div>
                                         <a href="#" class="button yith-wcqv-button" role="button" data-toggle="modal" data-target="#productQuickViewModal">Quick View</a>
                                         <div class="yith-wcwl-add-to-wishlist">
@@ -750,13 +782,13 @@
                                     <span class="price">
                                         <del>
                                             <span class="kreen-Price-amount amount">
-                                                <span class="kreen-Price-currencySymbol">$</span>
+                                                <span class="kreen-Price-currencySymbol">৳</span>
                                                 109.00
                                             </span>
                                         </del>
                                         <ins>
                                             <span class="kreen-Price-amount amount">
-                                                <span class="kreen-Price-currencySymbol">$</span>
+                                                <span class="kreen-Price-currencySymbol">৳</span>
                                                 89.00
                                             </span>
                                         </ins>
@@ -769,21 +801,50 @@
                             <div class="product-inner tooltip-top tooltip-all-top">
                                 <div class="product-thumb">
                                     <a class="thumb-link"
-                                       href="#" tabindex="0">
+                                    href="#" tabindex="0">
                                         <img class="img-responsive"
-                                             src="assets/images/apro302-270x350.jpg"
-                                             alt="Green beans" width="270" height="350">
+                                            src="assets/images/apro302-270x350.jpg"
+                                            alt="Green beans" width="270" height="350">
                                     </a>
-                                    <div class="flash">
-                                        <span class="sold-out">
-                                            <span>Sold out</span>
-                                        </span>
-                                        <span class="onnew"><span class="text">New</span></span>
+                                    <div class="qt-drop-wrapper qt-single">
+                                        <div class="qt-btn-close qt-single-close">
+                                            <span>Close </span>
+                                            <span class="qt-close">&times;</span>
+                                        </div>
+                                        <div class="select-weight-wrapper">
+                                            <div><h6 style="font-weight: 600; padding-bottom: 10px;">Weight:</h6></div>
+                                            <span style="color: #000;">150gm</span>
+                                        </div>
+                                        <div class="qt-price-wrapper">
+                                            <span class="price qt-price">
+                                                <ins>
+                                                    <span class="kreen-Price-amount amount">
+                                                        <span class="kreen-Price-currencySymbol">৳</span>
+                                                        89.00
+                                                    </span>
+                                                </ins>
+                                            </span>
+                                        </div>
+                                        <div class="qt-ad-to-cart">
+                                            <button type="submit" class="qt-btn-ad-to-cart cart-single">Add to cart</button>
+                                            <div class="quantity-wrapper single-quantity">
+                                                <div class="quantity">
+                                                    <span class="qty-label">Quantiy:</span>
+                                                    <div class="control">
+                                                        <a class="btn-number qtyminus quantity-minus" href="#">-</a>
+                                                        <input type="text" data-step="1" min="0" max="" name="quantity[25]" value="0" title="Qty" class="input-qty input-text qty text" size="4" pattern="[0-9]*" inputmode="numeric">
+                                                        <a class="btn-number qtyplus quantity-plus" href="#" style="pointer-events: auto;">+</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
+                                    <div class="flash">
+                                        <span class="onnew"><span class="text">New</span></span></div>
                                     <div class="group-button">
                                         <div class="add-to-cart">
-                                            <a href="#"
-                                               class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
+                                            <a href="#" onclick="return false"
+                                            class="button product_type_simple add_to_cart_button ajax_add_to_cart qt-select-open qt-single-open">Add to
                                                 cart</a></div>
                                         <a href="#" class="button yith-wcqv-button">Quick View</a>
                                         <div class="yith-wcwl-add-to-wishlist">
@@ -796,10 +857,14 @@
                                 <div class="product-info">
                                     <h3 class="product-name product_title">
                                         <a href="#"
-                                           tabindex="0">Green beans</a>
+                                        tabindex="0">Green beans</a>
                                     </h3>
-                                    <span class="price"><span class="kreen-Price-amount amount"><span
-                                            class="kreen-Price-currencySymbol">$</span>79.00</span></span>
+                                    <span class="price">
+                                        <ins><span
+                                            class="kreen-Price-amount amount"><span
+                                            class="kreen-Price-currencySymbol">৳</span>89.00</span>
+                                        </ins>
+                                    </span>
                                 </div>
                             </div>
                         </li>
