@@ -104,6 +104,18 @@ a.backtotop i {
 .view-btn-inner a {
     background: #ec1c24;
 }
+.stock.in-stock span {
+    color: #ec1c24;
+}
+.widget_shopping_cart .widget_shopping_cart_content .minicart-title .minicart-number-items {
+    background-color:rgb(214, 6, 36);
+}
+.widget_shopping_cart .kreen-mini-cart__total .kreen-Price-amount {
+    color: #ec1c24;
+}
+button, input[type="submit"], input[type="button"], .dreaming-btn {
+    background-color: #ec1c24;
+}
 
 /* testimonial */
 .section-034 {

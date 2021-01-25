@@ -680,9 +680,14 @@ quantity quick select option
   width: auto;
   transition: all .5s ease-in-out;
 }
-
 .qt-ad-to-cart div.quantity .input-qty {
-  width: 85px;
+  width: 86px;
+}
+.qt-ad-to-cart div.quantity .btn-number.quantity-plus::before {
+  content: "\f067";
+}
+.qt-ad-to-cart div.quantity .btn-number.quantity-minus::before {
+  content: "\f068";
 }
 
 

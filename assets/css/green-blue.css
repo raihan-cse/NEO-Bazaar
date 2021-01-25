@@ -104,6 +104,12 @@ a.backtotop i {
 .stock.in-stock span {
     color: #3084bb;
 }
+.widget_shopping_cart .widget_shopping_cart_content .minicart-title .minicart-number-items {
+    background-color:rgb(48, 132, 187);
+}
+.widget_shopping_cart .kreen-mini-cart__total .kreen-Price-amount {
+    color: #3084bb;
+}
 .qt-btn-ad-to-cart {
     background-color: #3084bb;
 }
