@@ -687,7 +687,17 @@ div.quantity .input-qty {
 div.quantity .btn-number {
   width: 42px;
   height: 46px;
-  background-color: #3084bb;
+  color: #fff;
+  transition: all .5s ease-in-out;
+}
+/* div.quantity:hover {
+  border-color: #000;
+} */
+div.quantity .btn-number:hover {
+  background-color: #000;
+}
+div.quantity .btn-number:hover {
+  color: #fff;
 }
 div.quantity .btn-number.quantity-plus::before {
   content: "\f067";
@@ -713,9 +723,7 @@ div.quantity .btn-number.quantity-minus::before {
   color: #fff;
 }
 
-div.quantity .btn-number:hover {
-  color: #000;
-}
+
 .product-item .variations_form.qt-form {
   left: auto;
   right: auto;

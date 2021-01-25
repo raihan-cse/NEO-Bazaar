@@ -116,6 +116,12 @@ a.backtotop i {
 button, input[type="submit"], input[type="button"], .dreaming-btn {
     background-color: #ec1c24;
 }
+div.quantity {
+    border: 1px solid #ec1c24;
+}
+div.quantity .btn-number {
+    background-color: #ec1c24;
+}
 
 /* testimonial */
 .section-034 {

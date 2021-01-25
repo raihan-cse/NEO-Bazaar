@@ -122,6 +122,9 @@ a.backtotop i {
 div.quantity {
     border: 1px solid #3084bb;
 }
+div.quantity .btn-number {
+    background-color: #3084bb;
+}
 
 /* shop page */
 .page-title::before {
