@@ -119,6 +119,9 @@ a.backtotop i {
 .view-btn-inner a {
     background: #3084bb;
 }
+div.quantity {
+    border: 1px solid #3084bb;
+}
 
 /* shop page */
 .page-title::before {

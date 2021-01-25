@@ -675,18 +675,24 @@ quantity quick select option
   position: absolute;
   left: 37px;
   top: 100%;
-  width: 112px;
-  border: none;
-  width: auto;
   transition: all .5s ease-in-out;
 }
-.qt-ad-to-cart div.quantity .input-qty {
-  width: 86px;
+div.quantity {
+  width: auto;
+  overflow: hidden;
 }
-.qt-ad-to-cart div.quantity .btn-number.quantity-plus::before {
+div.quantity .input-qty {
+  width: 62px;
+}
+div.quantity .btn-number {
+  width: 42px;
+  height: 46px;
+  background-color: #3084bb;
+}
+div.quantity .btn-number.quantity-plus::before {
   content: "\f067";
 }
-.qt-ad-to-cart div.quantity .btn-number.quantity-minus::before {
+div.quantity .btn-number.quantity-minus::before {
   content: "\f068";
 }
 
