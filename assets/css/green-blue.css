@@ -153,6 +153,9 @@ div.quantity .btn-number {
 .comment-form .form-submit #submit:hover {
     background-color: rgb(27, 27, 27);
 }
+.entry-summary .yith-wcwl-add-to-wishlist .add_to_wishlist:hover::before {
+    color: #3084bb;
+}
 
 
 

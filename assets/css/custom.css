@@ -722,6 +722,9 @@ div.quantity .btn-number.quantity-minus::before {
 .comment-form .form-submit #submit {
   background-color: rgb(48, 132, 187);
 }
+.dreaming-tabs li a::before {
+  bottom: -3px;
+}
 
 
 
