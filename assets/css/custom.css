@@ -726,6 +726,11 @@ div.quantity .btn-number.quantity-minus::before {
   bottom: -3px;
 }
 
+/* blog page */
+.blog-main-content .container-cell {
+  width: 50%;
+}
+
 
 
 .qt-form div.quantity .btn-number.quantity-plus:hover::before {
