@@ -2,6 +2,9 @@
   font-family: 'Kaushan Script', cursive;
   background-image: url(../images/title-bg-blue.png);
 }
+.page-title {
+  font-family: 'Kaushan Script', cursive;
+}
 .block-menu-bar-2 {
   display: block;
   font-size: 0;
