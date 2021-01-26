@@ -745,6 +745,16 @@ div.quantity .btn-number.quantity-minus::before {
   padding: 16px 100px 16px 70px;
 }
 
+.blog-main-content .content-wrapper .az_custom_heading {
+  margin: 0;
+}
+.blog-main-content .content-wrapper p {
+  margin-bottom: 0;
+}
+.blog-main-content .blog-grid .post-meta {
+  padding: 15px 0 24px 0;
+}
+
 .blog-main-content .post-item .post-comment-icon {
   float: left;
 }
