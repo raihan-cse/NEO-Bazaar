@@ -713,7 +713,7 @@ div.quantity .btn-number.quantity-minus::before {
   content: "\f068";
 }
 
-/* single product page design start */
+/* single product page */
 .kreen-product-gallery .flex-viewport {
   width: 100%;
 }
@@ -766,6 +766,15 @@ div.quantity .btn-number.quantity-minus::before {
 }
 .blog-main-content .post-item .readmore {
   margin-top: 16px;
+}
+
+/* single blog page / single-post */
+.post-footer .kreen-share-socials {
+  float: left;
+  text-align: left;
+}
+.post-footer .kreen-share-socials .instagram {
+  font-weight: 700;
 }
 
 

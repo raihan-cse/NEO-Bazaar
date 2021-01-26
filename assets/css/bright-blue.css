@@ -155,5 +155,11 @@ div.quantity .btn-number {
     color: #3084bb;
 }
 
+/* single blog page */
+.widget_categories .cat-item a:hover::before, .widget_product_categories .cat-item label input:checked + span::before, .kreen-widget-layered-nav .kreen-widget-layered-nav-list__item label input:checked + span::before, .widget_product_categories .cat-item label input + span:hover::before, .kreen-widget-layered-nav .kreen-widget-layered-nav-list__item label input + span:hover::before {
+    border-color: #3084bb;
+    background-color: #3084bb;
+  }
+
 
 
