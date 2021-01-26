@@ -20,7 +20,6 @@ a:hover, a:focus, a:active {
     background-color: rgba(48, 132, 187, .7);
 }
 .meta-dreaming .block-dreaming .block-link .count {
-    /* background-color: #83c128; */
     background-color: rgb(46, 49, 147);
 }
 .slide-home-03 .slide-wrap .slide-info h1 {
@@ -40,9 +39,6 @@ a:hover, a:focus, a:active {
 }
 .owl-slick .slick-arrow:hover {
     color: rgb(48, 132, 187);
-}
-.kreen-heading.style-01 .title {
-    background-image: url(../images/title-bg-blue.png);
 }
 .kreen-heading.style-01 .title::before {
     border-bottom: 4px solid #3084bb;
@@ -110,6 +106,9 @@ a.backtotop i {
 .widget_shopping_cart .kreen-mini-cart__total .kreen-Price-amount {
     color: #3084bb;
 }
+button, input[type="submit"], input[type="button"], .dreaming-btn {
+    background-color: #3084bb;
+}
 .qt-btn-ad-to-cart {
     background-color: #3084bb;
 }
@@ -130,7 +129,6 @@ div.quantity .btn-number {
 .page-title::before {
     background-color: #3084bb;
 }
-
 .grid-view-mode .modes-mode:hover, .grid-view-mode .modes-mode:focus, .grid-view-mode .modes-mode:active, .grid-view-mode .modes-mode.active {
     border-color: #3084bb;
     background-color: #3084bb;

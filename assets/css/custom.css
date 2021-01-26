@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+.kreen-heading.style-01 .title {
+  font-family: 'Kaushan Script', cursive;
+  background-image: url(../images/title-bg-blue.png);
+}
 .block-menu-bar-2 {
   display: block;
   font-size: 0;
@@ -726,8 +729,8 @@ div.quantity .btn-number.quantity-minus::before {
   bottom: -3px;
 }
 
-/* blog page */
 
+/* blog page */
 .blog-main-content .container-table .container-cell {
   padding-left: 0;
   padding-right: 0;
@@ -805,11 +808,7 @@ div.quantity .btn-number.quantity-minus::before {
   background-color: #3084bb;
 }
 
-button, input[type="submit"], input[type="button"], .dreaming-btn {
-  background-color: #3084bb;
-  opacity: 1 !important;
-  cursor: pointer;
-}
+
 
 
 
