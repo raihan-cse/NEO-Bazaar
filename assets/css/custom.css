@@ -742,7 +742,7 @@ div.quantity .btn-number.quantity-minus::before {
   width: 100%;
 }
 .blog-main-content .container-table .content-wrapper {
-  padding: 16px 100px 16px 70px;
+  padding: 16px 70px;
 }
 
 .blog-main-content .content-wrapper .az_custom_heading {
@@ -752,11 +752,14 @@ div.quantity .btn-number.quantity-minus::before {
   margin-bottom: 0;
 }
 .blog-main-content .blog-grid .post-meta {
-  padding: 15px 0 24px 0;
+  padding: 16px 0;
 }
 
 .blog-main-content .post-item .post-comment-icon {
   float: left;
+}
+.blog-main-content .post-item .readmore {
+  margin-top: 16px;
 }
 
 
