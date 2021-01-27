@@ -765,6 +765,22 @@ div.quantity .btn-number.quantity-minus::before {
 .kreen-cart-form .shop_table .actions button.button:hover {
   background-color: #000;
 }
+.cart-page .kreen-cart-form {
+}
+@media (min-width: 1024px) {
+  .cart-page .cart-collaterals {
+    padding-top: 0;
+  }
+}
+.cart-page .cart-collaterals.sticky-top {
+  top: 88px;
+  z-index: 1;
+}
+@media (min-width: 768px) and (max-width: 1365.98px) {
+  .kreen-cart-form .shop_table .actions .coupon {
+    width: 472px;
+  }
+}
 
 /* contact page */
 .kreen-google-maps iframe {
