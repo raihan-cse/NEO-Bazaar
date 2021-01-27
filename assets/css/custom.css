@@ -758,11 +758,15 @@ div.quantity .btn-number.quantity-minus::before {
   text-align: left;
 }
 
-
-
 /* cart page */
 .kreen-cart-form .shop_table .actions button.button:hover {
   background-color: #000;
+}
+
+/* contact page */
+.kreen-google-maps iframe {
+  width: 100%;
+  height: 600px;
 }
 
 
