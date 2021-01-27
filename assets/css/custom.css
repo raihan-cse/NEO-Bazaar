@@ -765,8 +765,6 @@ div.quantity .btn-number.quantity-minus::before {
 .kreen-cart-form .shop_table .actions button.button:hover {
   background-color: #000;
 }
-.cart-page .kreen-cart-form {
-}
 @media (min-width: 1024px) {
   .cart-page .cart-collaterals {
     padding-top: 0;
