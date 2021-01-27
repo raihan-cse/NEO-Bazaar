@@ -200,13 +200,13 @@
 .cat1-extra, .cat2-extra, .cat3-extra, .cat4-extra {
   opacity: 0;
   visibility: hidden;
-  transform: translateX(100px);
+  transform: translateY(100px);
   transition: transform .5s ease-in, opacity .2s ease-in, visibility .2s ease-in;
 }
 #cat1-menu:hover .cat1-extra, #cat2-menu:hover .cat2-extra, #cat3-menu:hover .cat3-extra, #cat4-menu:hover .cat4-extra {
   opacity: 1;
   visibility: visible;
-  transform: translateX(0);
+  transform: translateY(0);
 }
 
 .header-hidden-search {
