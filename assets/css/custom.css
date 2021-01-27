@@ -769,12 +769,12 @@ div.quantity .btn-number.quantity-minus::before {
 }
 
 /* single blog page / single-post */
+.post-thumb img {
+  width: 100%;
+}
 .post-footer .kreen-share-socials {
   float: left;
   text-align: left;
-}
-.post-footer .kreen-share-socials .instagram {
-  font-weight: 700;
 }
 
 
@@ -793,16 +793,12 @@ div.quantity .btn-number.quantity-minus::before {
   content: "\f068";
   color: #fff;
 }
-
-
 .product-item .variations_form.qt-form {
   left: auto;
   right: auto;
   top: auto;
 }
 .qt-form div.quantity {
-  /* background-color: #80BB2d; */
-  /* border: none; */
   width: 108px;
   margin-right: 4px;
   overflow: hidden;
