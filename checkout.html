@@ -689,7 +689,7 @@
                 <div class="page-main-content">
                     <div class="kreen">
                         <div class="kreen-notices-wrapper"></div>
-                        <div class="checkout-before-top">
+                        <!-- <div class="checkout-before-top">
                             <div class="kreen-checkout-login">
                                 <div class="kreen-form-login-toggle kreen-form-toggle">
                                     <div class="kreen-info">
@@ -751,7 +751,7 @@
                                     <div class="clear"></div>
                                 </form>
                             </div>
-                        </div>
+                        </div> -->
                         <form name="checkout" method="post" class="checkout kreen-checkout"
                               action="" enctype="multipart/form-data"
                               novalidate="novalidate">
@@ -1035,7 +1035,7 @@
                                                                                              autocomplete="email username"></span>
                                             </p></div>
                                     </div>
-                                    <div class="kreen-account-fields">
+                                    <!-- <div class="kreen-account-fields">
                                         <p class="form-row form-row-wide create-account kreen-validated">
                                             <label class="kreen-form__label kreen-form__label-for-checkbox checkbox">
                                                 <input class="kreen-form__input kreen-form__input-checkbox input-checkbox"
@@ -1043,7 +1043,7 @@
                                                        value="1"> <span>Create an account?</span>
                                             </label>
                                         </p>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="col-2">
                                     <div class="kreen-shipping-fields">
@@ -1114,6 +1114,20 @@
                                     </tfoot>
                                 </table>
                                 <input type="hidden" name="lang" value="en">
+                                <div class="checkout_coupon kreen-form-coupon kreen-form-show" >
+                                    
+                                    <p>Have a coupon code, please apply it below.</p>
+                                    <p class="form-row form-row-first">
+                                        <input type="text" name="coupon_code" class="input-text"
+                                               placeholder="Coupon code" id="coupon_code" value="">
+                                    </p>
+                                    <p class="form-row form-row-last">
+                                        <button type="submit" class="button" name="apply_coupon" value="Apply coupon">
+                                            Apply coupon
+                                        </button>
+                                    </p>
+                                    <div class="clear"></div>
+                                </div>
                                 <div id="payment" class="kreen-checkout-payment">
                                     <ul class="wc_payment_methods payment_methods methods">
                                         <li class="wc_payment_method payment_method_bacs">
