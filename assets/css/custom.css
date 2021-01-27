@@ -750,6 +750,9 @@ div.quantity .btn-number.quantity-minus::before {
 }
 
 /* single blog page / single-post */
+.widget-kreen-post .post-thumb {
+  width: 83px;
+}
 .post-thumb img {
   width: 100%;
 }
