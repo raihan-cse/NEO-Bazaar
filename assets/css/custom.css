@@ -55,7 +55,7 @@
 }
 
 .sidenav .link-menu:hover {
-  color: #80BB2d;
+  color: #3084bb;
 }
 
 .sidenav .closebtn {
@@ -74,7 +74,7 @@
 }
 
 .close-icon:hover {
-  color: #80BB2d;
+  color: #3084bb;
 }
 
 .cat-menu div {
@@ -125,7 +125,7 @@
 }
 
 .cat-links a:hover {
-  color: #80BB2d;
+  color: #3084bb;
 }
 
 .cat1-extra {
@@ -342,8 +342,7 @@
 
 .meta-dreaming.p-fixed .block-minicart {
   padding: 0;
-  /* background-color: #008F4C; */
-  background-color: rgba(0, 143, 76, .9);
+  background-color: rgba(48, 132, 187, .7);
   border-radius: 12px 0 0 12px;
 }
 
@@ -358,12 +357,12 @@
 }
 
 .meta-dreaming .block-dreaming .block-link .count {
-  background-color: #80b82d;
   top: 4px;
   right: 4px;
   min-width: 18px;
   height: 18px;
   line-height: 18px;
+  background-color: rgb(46, 49, 147);
 }
 
 .block-minicart .block-cart-link::before {
@@ -388,11 +387,6 @@
   font-weight: 600;
 }
 
-/* @media (min-width: 1024px) {
-  .logo-wapper p {
-    padding: 16px 72px 0 0;
-  }
-} */
 
 .link-wapper {
   margin:24px 0 24px;
@@ -424,7 +418,7 @@
 }
 
 .link-wapper ul li a:hover {
-  color: #80b82d;
+  color: #3084bb;
 }
 
 .kreen-newsletter.style-01 .newsletter-inner {
@@ -456,14 +450,14 @@
 /* ===back to top=== */
 a.backtotop {
   background-color: transparent;
-  border: 2px solid #80b82d;
+  border: 2px solid #3084bb;
   bottom: 25px;
 }
 a.backtotop:hover {
-  background-color: #80b82d;
+  background-color: #3084bb;
 }
 a.backtotop i {
-  color: #80b82d;
+  color: #3084bb;
 }
 a.backtotop:hover > i {
   color: #fff;
@@ -486,7 +480,7 @@ a.backtotop:hover > i {
   border-radius: 50px;
   padding: 4px 16px;
   overflow: hidden;
-  background: #000;
+  background: #3084bb;
   position: relative;
 }
 .view-btn-inner a span {
@@ -579,6 +573,9 @@ product quick view
 .entry-summary .kreen-product-details__short-description {
   padding-bottom: 12px;
 }
+button, input[type="submit"], input[type="button"], .dreaming-btn {
+  background-color: #3084bb;
+}
 
 /* ============================
 quantity quick select option
@@ -618,25 +615,6 @@ quantity quick select option
 .qt-price-wrapper {
   margin-bottom: 16px;
 }
-/* .qt-cart-wrapper .add-to-cart {
-  display: inline-block;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
-    background-color: #3084bb;
-    color: #fff;
-    border-radius: 50%;
-    margin: 0 4px;
-    vertical-align: top;
-    -webkit-transition: all 0.7s ease 0s;
-    -moz-transition: all 0.7s ease 0s;
-    -o-transition: all 0.7s ease 0s;
-    transition: all 0.7s ease 0s;
-}
-.qt-cart-wrapper .add-to-cart:hover {
-  background-color: #000;
-}
-.qt-cart-wrapper .add-to-cart:hover a {
-  color: #fff;
-} */
 
 .qt-btn-ad-to-cart {
   vertical-align: middle;
@@ -650,6 +628,7 @@ quantity quick select option
   overflow: hidden;
   position: relative;
   border-radius: 30px;
+  background-color: #3084bb;
   cursor: pointer;
   pointer-events: auto;
   -webkit-transition: all 0.7s ease 0s;
@@ -687,6 +666,7 @@ quantity quick select option
 div.quantity {
   width: auto;
   overflow: hidden;
+  border: 1px solid #3084bb;
 }
 div.quantity .input-qty {
   width: 62px;
@@ -698,6 +678,7 @@ div.quantity .btn-number {
   height: 44px;
   line-height: 44px;
   color: #fff;
+  background-color: #3084bb;
   transition: all .5s ease-in-out;
 }
 div.quantity .btn-number:hover {
@@ -779,7 +760,14 @@ div.quantity .btn-number.quantity-minus::before {
 
 
 
-.qt-form div.quantity .btn-number.quantity-plus:hover::before {
+/* cart page */
+.kreen-cart-form .shop_table .actions button.button:hover {
+  background-color: #000;
+}
+
+
+
+/* .qt-form div.quantity .btn-number.quantity-plus:hover::before {
   color: #000;
 }
 .qt-form div.quantity .btn-number.quantity-minus:hover::before {
@@ -814,7 +802,7 @@ div.quantity .btn-number.quantity-minus::before {
   line-height: 40px;
   height: 40px;
   background-color: #3084bb;
-}
+} */
 
 
 
