@@ -129,7 +129,7 @@
 }
 
 .cat1-extra {
-  display: none;
+  /* display: none; */
   position: fixed;
   z-index: 102;
   top: 60px;
@@ -142,12 +142,12 @@
 }
 
 #cat1-menu:hover .cat1-extra {
-  display: block;
+  /* display: block; */
 }
 
 .cat2-extra {
   border-left: 1px solid rgba(0, 0, 0, 0.103);
-  display: none;
+  /* display: none; */
   position: fixed;
   z-index: 102;
   left: 280px;
@@ -159,11 +159,11 @@
 }
 
 #cat2-menu:hover .cat2-extra {
-  display: block;
+  /* display: block; */
 }
 
 .cat3-extra {
-  display: none;
+  /* display: none; */
   position: fixed;
   z-index: 102;
   top: 60px;
@@ -176,11 +176,11 @@
 }
 
 #cat3-menu:hover .cat3-extra {
-  display: block;
+  /* display: block; */
 }
 
 .cat4-extra {
-  display: none;
+  /* display: none; */
   position: fixed;
   z-index: 102;
   top: 60px;
@@ -193,7 +193,20 @@
 }
 
 #cat4-menu:hover .cat4-extra {
-  display: block;
+  /* display: block; */
+}
+
+/* only for transition */
+.cat1-extra, .cat2-extra, .cat3-extra, .cat4-extra {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(100px);
+  transition: transform .5s ease-in, opacity .2s ease-in, visibility .2s ease-in;
+}
+#cat1-menu:hover .cat1-extra, #cat2-menu:hover .cat2-extra, #cat3-menu:hover .cat3-extra, #cat4-menu:hover .cat4-extra {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
 }
 
 .header-hidden-search {
