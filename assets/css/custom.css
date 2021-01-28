@@ -42,7 +42,7 @@
   background-color: rgb(255, 255, 255);
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  /* padding-top: 70px; */
 }
 
 .sidenav a {
@@ -77,8 +77,9 @@
   color: #3084bb;
 }
 
-.cat-menu div {
+.cat-menu > div {
   padding: 10px 10px;
+  overflow: hidden;
 }
 
 /* @media (max-height: 450px) {
@@ -130,15 +131,8 @@
 
 .cat1-extra {
   /* display: none; */
-  position: fixed;
-  z-index: 102;
-  top: 60px;
-  left: 280px;
   width: 800px;
   height: 350px;
-  background: rgb(255, 255, 255);
-  padding: 20px 40px;
-  border-left: 1px solid rgba(0, 0, 0, 0.103);
 }
 
 #cat1-menu:hover .cat1-extra {
@@ -146,16 +140,9 @@
 }
 
 .cat2-extra {
-  border-left: 1px solid rgba(0, 0, 0, 0.103);
   /* display: none; */
-  position: fixed;
-  z-index: 102;
-  left: 280px;
-  top: 60px;
   width: 700px;
   height: 350px;
-  background: rgb(255, 255, 255);
-  padding: 20px 40px;
 }
 
 #cat2-menu:hover .cat2-extra {
@@ -164,15 +151,8 @@
 
 .cat3-extra {
   /* display: none; */
-  position: fixed;
-  z-index: 102;
-  top: 60px;
-  left: 280px;
   width: 500px;
   height: 350px;
-  background: rgb(255, 255, 255);
-  padding: 20px 40px;
-  border-left: 1px solid rgba(0, 0, 0, 0.103);
 }
 
 #cat3-menu:hover .cat3-extra {
@@ -181,15 +161,8 @@
 
 .cat4-extra {
   /* display: none; */
-  position: fixed;
-  z-index: 102;
-  top: 60px;
-  left: 280px;
   width: 250px;
   height: 350px;
-  padding: 20px 40px;
-  background: rgb(255, 255, 255);
-  border-left: 1px solid rgba(0, 0, 0, 0.103);
 }
 
 #cat4-menu:hover .cat4-extra {
@@ -198,15 +171,32 @@
 
 /* only for transition */
 .cat1-extra, .cat2-extra, .cat3-extra, .cat4-extra {
+  position: fixed;
+  z-index: 102;
+  top: 90px;
+  left: 280px;
+  background: rgb(255, 255, 255);
+  padding: 16px 24px;
+  border-left: 1px solid rgba(0, 0, 0, 0.103);
   opacity: 0;
   visibility: hidden;
-  transform: translateY(100px);
-  transition: transform .5s ease-in, opacity .2s ease-in, visibility .2s ease-in;
+  transform: translateX(-50px);
+  transition: transform .5s ease-in;
+  /* transition: transform .5s ease-in, opacity .2s ease-in, visibility .2s ease-in; */
 }
 #cat1-menu:hover .cat1-extra, #cat2-menu:hover .cat2-extra, #cat3-menu:hover .cat3-extra, #cat4-menu:hover .cat4-extra {
   opacity: 1;
   visibility: visible;
-  transform: translateY(0);
+  transform: translateX(0);
+}
+
+.cat1-extra h5, .cat2-extra h5, .cat3-extra h5, .cat4-extra h5 {
+  margin-top: 0;
+}
+.cat-menu .categories > span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
 }
 
 .header-hidden-search {
@@ -230,6 +220,63 @@
   display: flex;
   justify-content: start;
   align-items: center;
+}
+
+
+/* ========================== */
+.nav-close-wrapper {
+  display: flex;
+  min-height: 88px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.nav-close-wrapper h3 {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.nav-close-wrapper .nav-close-button {
+  font-size: 18px;
+  width: 32px;
+  height: 32px;
+  border: 2px solid;
+  border-radius: 50%;
+  line-height: 26px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition:  .5s ease-in-out;
+  -moz-transition:  .5s ease-in-out;
+  -ms-transition:  .5s ease-in-out;
+  -o-transition:  .5s ease-in-out;
+  transition:  .5s ease-in-out;
+}
+.nav-close-wrapper .nav-close-button:before {
+  position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    -webkit-transform: skewX(-45deg);
+    -moz-transform: skewX(-45deg);
+    -o-transform: skewX(-45deg);
+    -ms-transform: skewX(-45deg);
+    transform: skewX(-45deg);
+}
+.nav-close-wrapper .nav-close-button:hover:before {
+  -webkit-animation: shine .75s;
+  animation: shine .75s;
+}
+.nav-close-wrapper .nav-close-button:hover {
+  color: #fff;
+  border-color: #3084bb;
+  background-color: #3084bb;
 }
 
 
