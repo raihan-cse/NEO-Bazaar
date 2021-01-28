@@ -329,6 +329,10 @@
   transition: opacity .5s;
 }
 
+.cs-btn-submit:hover, .cs-btn-close:hover {
+  color: #3084bb;
+}
+
 .cs-hide {
   opacity: 0;
   visibility: hidden;
