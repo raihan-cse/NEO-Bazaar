@@ -867,6 +867,19 @@ div.quantity .btn-number.quantity-minus::before {
     width: 472px;
   }
 }
+.cart_totals > h2 {
+  color: #000;
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-width: 1px 1px 0;
+  border-style: solid;
+  border-color: #eee;
+  border-radius: 0;
+}
+.kreen-cart-form .shop_table thead th.product-name {
+  text-align: center;
+}
 
 /* contact page */
 .kreen-google-maps iframe {
