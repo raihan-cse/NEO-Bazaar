@@ -563,6 +563,30 @@ a.backtotop:hover > i {
   bottom: 0;
 }
 
+/* style for list view */
+.product-item.list .group-button-inner .yith-wcqv-button, .product-item.list .product-thumb .group-button {
+  display: none;
+}
+.product-item.style-04 .kreen-product-details__short-description, .product-item.style-04 .product-inner > .lv-gb-wrapper {
+  display: none;
+}
+.product-item.style-04 .product-thumb > .yith-wcqv-button {
+  display: none;
+}
+.lv-gb-wrapper {
+  position: relative;
+  min-height: 280px;
+  overflow: hidden;
+  display: table-cell;
+  vertical-align: middle;
+}
+.product-item.list .product-thumb > .qt-drop-wrapper {
+  display: none;
+}
+
+.product-item.list .lv-gb-wrapper .qt-ad-to-cart .quantity-wrapper {
+  text-align: left;
+}
 
 
 /* =========================

@@ -11,10 +11,10 @@
             return false;
         }
         if ($this.hasClass('mode-grid')) {
-            $('.product-item').addClass('col-bg-4 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-ts-6 style-01').removeClass('col-md-12 list');
+            $('.product-item').addClass('col-bg-4 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-ts-6 style-04').removeClass('col-md-12 list');
         }
         else {
-            $('.product-item').removeClass('col-bg-4 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-ts-6 style-01').addClass('col-md-12 list');
+            $('.product-item').removeClass('col-bg-4 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-ts-6 style-04').addClass('col-md-12 list');
         }
         $('.has-sidebar .grid-view-mode .modes-mode').removeClass('active');
         $this.addClass('active');
@@ -27,10 +27,10 @@
             return false;
         }
         if ($this.hasClass('mode-grid')) {
-            $('.product-item').addClass('col-bg-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ts-6 style-01').removeClass('list');
+            $('.product-item').addClass('col-bg-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ts-6 style-04').removeClass('list');
         }
         else {
-            $('.product-item').removeClass('col-bg-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ts-6 style-01').addClass('col-md-12 list');
+            $('.product-item').removeClass('col-bg-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-ts-6 style-04').addClass('col-md-12 list');
         }
 
         $('.no-sidebar .grid-view-mode .modes-mode').removeClass('active');
