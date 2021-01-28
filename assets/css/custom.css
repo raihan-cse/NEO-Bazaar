@@ -887,6 +887,16 @@ div.quantity .btn-number.quantity-minus::before {
   height: 600px;
 }
 
+/* privacy policy page start */
+.pp-main-content {
+  background-color: #f5f5f5;
+  min-height: 450px;
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
 
 
 /* .qt-form div.quantity .btn-number.quantity-plus:hover::before {
