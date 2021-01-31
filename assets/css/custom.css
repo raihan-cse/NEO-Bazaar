@@ -77,6 +77,11 @@
   color: #3084bb;
 }
 
+.cat-menu {
+  background-color: rgb(245, 245, 245);
+  z-index: 1;
+}
+
 .cat-menu > div {
   padding: 10px 10px;
   overflow: hidden;
@@ -172,7 +177,7 @@
 /* only for transition */
 .cat1-extra, .cat2-extra, .cat3-extra, .cat4-extra {
   position: fixed;
-  z-index: 0;
+  z-index: -1;
   top: 90px;
   left: 280px;
   background: rgb(245, 245, 245);
@@ -240,7 +245,7 @@
 }
 .nav-close-btn-wrapper {
   position: absolute;
-  top: 20px;
+  top: 18px;
   right: 20px;
 }
 .nav-close-wrapper .nav-close-button {
