@@ -28,6 +28,12 @@ function openNav() {
       $(".main-nav-list, .more-nav-list").removeClass("more-active");
     })
 
+    // ====================
+    // mobile footer search
+    // ====================
+    $('.link-dropdown-footer').click(function(){
+      $('.kreen-dropdown').addClass('open');
+    })
 
   
   $(document).ready(function () {

@@ -510,6 +510,34 @@
   font-size: 18px;
 }
 
+@media (max-width: 1023.98px) {
+.kreen-newsletter.style-01 .newsletter-inner {
+    text-align: left;
+  }
+  .kreen-newsletter.style-01 .desc {
+    max-width: 100%;
+  }
+  .kreen-newsletter.style-01 .newsletter-form-wrap {
+    max-width: 100%;
+  }
+  .section-010 .kreen-socials.style-01 {
+    text-align: center;
+  }
+  .section-010 p {
+    text-align: center;
+  }
+}
+
+.header-mobile {
+  position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 5%);
+}
 
 /* ===back to top=== */
 a.backtotop {
