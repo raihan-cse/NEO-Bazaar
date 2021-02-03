@@ -18,24 +18,6 @@ function openNav() {
     //document.getElementById("dark-bg").style.display = 'none';
   }
 
-  /* =============
-    more nav list
-    ============= */
-    $(".open-more").click(function() {
-      $(".main-nav-list, .more-nav-list").addClass("more-active");
-    })
-    $(".more-nav-list-btn-back").click(function() {
-      $(".main-nav-list, .more-nav-list").removeClass("more-active");
-    })
-
-    // ====================
-    // mobile footer search
-    // ====================
-    // $('.footer-search-open').click(function(e){
-    //   e.preventDefault;
-    //   $('#indo').addClass('open');
-    // })
-
   
   $(document).ready(function () {
     //header search click to expand 
@@ -51,8 +33,42 @@ function openNav() {
       $(".cs-btn-submit").removeClass("cs-hide");
     })
 
-    
 
+
+    //more nav list
+    $(".open-more").click(function() {
+      $(".main-nav-list, .more-nav-list").addClass("more-active");
+    })
+    $(".more-nav-list-btn-back").click(function() {
+      $(".main-nav-list, .more-nav-list").removeClass("more-active");
+    })
+
+    //mobile footer search activation
+    $('.footer-search-open').click(function(e){
+      e.preventDefault();
+      $('#mobile-header-search').toggleClass('mobile-open');
+    })
+    // $('.footer-device-mobile').on('click', '.footer-search-open', function(e){
+    //   e.preventDefault;
+    //   $('#mobile-header-search').toggleClass('mobile-open');
+    // })
+
+
+    //mobile footer cart activation
+    $('.footer-cart-open').click(function(e){
+      e.preventDefault();
+      $('#mobile-cart').toggleClass('cart-open'); 
+    })
+    /*if div outside click to close div
+    $('.footer-cart-open').click(function(e){
+      e.preventDefault;
+      $('#mobile-cart').toggleClass('cart-open').focus(); 
+    })
+    $('#mobile-cart').on('focusout', function () {
+      $('#mobile-cart').removeClass('cart-open');
+    });*/
+
+    
 
     //select multiple quantity options
     $(".qt-select-open.qt-multiple-open").click(function() {
