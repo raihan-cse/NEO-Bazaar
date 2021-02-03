@@ -778,11 +778,11 @@
                     <span></span>
                 </a>
             </div>
-            <div class="header-search kreen-dropdown">
+            <div class="header-search kreen-dropdown" id="mobile-header-search">
                 <div class="header-search-inner" data-kreen="kreen-dropdown">
-                    <a href="#" class="link-dropdown block-link">
+                    <!-- <a href="#" class="link-dropdown block-link">
                         <span class="pe-7s-search"></span>
-                    </a>
+                    </a> -->
                 </div>
                 <div class="block-search">
                     <form role="search" method="get"
@@ -795,21 +795,6 @@
                         </div>
                         <input name="post_type" value="product" type="hidden">
                         <input name="taxonomy" value="product_cat" type="hidden">
-                        <div class="category">
-                            <select title="product_cat" name="product_cat" id="112546160" class="category-search-option"
-                                    tabindex="-1"
-                                    style="display: none;">
-                                <option value="0">All Categories</option>
-                                <option class="level-0" value="light">Healthy</option>
-                                <option class="level-0" value="chair">Pumpkin</option>
-                                <option class="level-0" value="table">Leafy green</option>
-                                <option class="level-0" value="bed">Soybeans</option>
-                                <option class="level-0" value="new-arrivals">New arrivals</option>
-                                <option class="level-0" value="lamp">Summer Sale</option>
-                                <option class="level-0" value="specials">Raw fruit</option>
-                                <option class="level-0" value="sofas">Cauliflower</option>
-                            </select>
-                        </div>
                         <button type="submit" class="btn-submit">
                             <span class="pe-7s-search"></span>
                         </button>
@@ -2094,8 +2079,17 @@
                 Home
             </a>
         </div>
+        <!-- <div class="header-mobile">
+            <div class="header-search">
+                <div class="header-search-inner" data-kreen="kreen-dropdown">
+                    <a href="#" class="link-dropdown block-link one">
+                        <span class="pe-7s-search"></span>
+                    </a>
+                </div>
+            </div>
+        </div> -->
         <div class="footer-device-mobile-item device-home device-wishlist">
-            <a href="wishlist.html">
+            <a href="#" class="footer-search-open">
 					<span class="icon">
 						<span class="pe-7s-like"></span>
 					</span>
@@ -2227,5 +2221,11 @@
 <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyC3nDHy1dARR-Pa_2jjPCjvsOR4bcILYsM'></script>
 <script src="assets/js/functions.js"></script>
 <script src="assets/js/menubar.js"></script>
+<script>
+    $('.footer-device-mobile').on('click', '.footer-search-open', function(e){
+      e.preventDefault;
+      $('#mobile-header-search').toggleClass('mobile-open');
+    })
+</script>
 </body>
 </html>

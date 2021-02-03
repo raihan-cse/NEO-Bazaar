@@ -31,9 +31,10 @@ function openNav() {
     // ====================
     // mobile footer search
     // ====================
-    $('.link-dropdown-footer').click(function(){
-      $('.kreen-dropdown').addClass('open');
-    })
+    // $('.footer-search-open').click(function(e){
+    //   e.preventDefault;
+    //   $('#indo').addClass('open');
+    // })
 
   
   $(document).ready(function () {
