@@ -17,12 +17,20 @@ function closeNav2() {
   //document.getElementById("dark-bg").style.display = 'none';
 }
 $(document).ready(function (){
-  //more nav list
+  //more nav list large
   $(".open-more-large").click(function() {
     $(".main-nav-list-large, .more-nav-list-large").addClass("more-active");
   })
-  $(".more-nav-list-btn-back").click(function() {
+  $(".more-nav-list-btn-back-large").click(function() {
     $(".main-nav-list-large, .more-nav-list-large").removeClass("more-active");
+  })
+
+  //more nav list mobile
+  $(".open-more-mobile").click(function() {
+    $(".main-nav-list-mobile, .more-nav-list-mobile").addClass("more-active");
+  })
+  $(".more-nav-list-btn-back-mobile").click(function() {
+    $(".main-nav-list-mobile, .more-nav-list-mobile").removeClass("more-active");
   })
 
   // mobile menu sub category toggle

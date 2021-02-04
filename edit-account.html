@@ -24,827 +24,1240 @@
     <title>NEO Bazaar </title>
 </head>
 <body>
-<div id="mySidenav" class="sidenav shadow">
-    <div class="side-nav-wrapper">
-        <div id="" class="main-nav-list">
-            <div class="nav-close-wrapper">
-                <h3>categories</h3>
-                <div class="nav-close-btn-wrapper">
-                    <h4 onclick="closeNav()" class="nav-close-button nav-close-back-button">&times;</h4>
+    <div id="mySidenavLarge" class="sidenav shadow">
+        <div class="side-nav-wrapper">
+            <div id="" class="main-nav-list main-nav-list-large">
+                <div class="nav-close-wrapper">
+                    <h3>categories</h3>
+                    <div class="nav-close-btn-wrapper">
+                        <h4 onclick="closeNav()" class="nav-close-button nav-close-back-button">&times;</h4>
+                    </div>
+                </div>
+                <div class="cat-menu">
+                    <div id="cat1-menu" class="categories">
+                        <span class="link-menu">Groceries 
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="cat1-extra">
+                            <div class="row">
+                                <div class="cat-links col-md-3">
+                                    <h5>Cooking </h5>
+                                    <a href="#">link 1</a>
+                                    <a href="#">link 2</a>
+                                    <a href="#">link 3</a>
+                                    <a href="#">link 4</a>
+                                    <a href="#">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-3">
+                                    <h5>Oil </h5>
+                                    <a href="#">link 6</a>
+                                    <a href="#">link 7</a>
+                                    <a href="">link 8</a>
+                                    <a href="">link 9</a>
+                                    <a href="">link 10</a>
+                                </div>
+                                <div class="cat-links col-md-3">
+                                    <h5>Rice </h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-3">
+                                    <h5>Miscellaneous</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cat2-menu" class="categories">
+                        <span class="link-menu">Honey
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="cat2-extra">
+                            <div class="row">
+                                <div class="cat-links col-md-4">
+                                    <h5>Group-1</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-4">
+                                    <h5>Group-2</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-4">
+                                    <h5>Group-3</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cat3-menu" class="categories">
+                        <span class="link-menu">Snacks & Refreshments
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="cat3-extra">
+                            <div class="row">
+                                <div class="cat-links col-md-6">
+                                    <h5>Group-1</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-6">
+                                    <h5>Group-2</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cat4-menu" class="categories">
+                        <span class="link-menu">Fruits
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="cat4-extra">
+                            <div class="row">
+                                <div class="cat-links col-md-12">
+                                    <h5>Group-1</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cat1-menu" class="categories">
+                        <span class="link-menu">Food for Health 
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="cat1-extra">
+                            <div class="row">
+                                <div class="cat-links col-md-3">
+                                    <h5>Group-1</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-3">
+                                    <h5>Group-2</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-3">
+                                    <h5>Group-3</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-3">
+                                    <h5>Group-4</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cat2-menu" class="categories">
+                        <span class="link-menu">Beauty Products
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="cat2-extra">
+                            <div class="row">
+                                <div class="cat-links col-md-4">
+                                    <h5>Group-1</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-4">
+                                    <h5>Group-2</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-4">
+                                    <h5>Group-3</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cat3-menu" class="categories">
+                        <span class="link-menu">Category 7
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="cat3-extra">
+                            <div class="row">
+                                <div class="cat-links col-md-6">
+                                    <h5>Group-1</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-6">
+                                    <h5>Group-2</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cat4-menu" class="categories">
+                        <span class="link-menu">Category 8
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="cat4-extra">
+                            <div class="row">
+                                <div class="cat-links col-md-12">
+                                    <h5>Group-1</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cat1-menu" class="categories">
+                        <span class="link-menu">Category 9 
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="cat1-extra">
+                            <div class="row">
+                                <div class="cat-links col-md-3">
+                                    <h5>Group-1</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-3">
+                                    <h5>Group-2</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-3">
+                                    <h5>Group-3</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-3">
+                                    <h5>Group-4</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cat2-menu" class="categories">
+                        <span class="link-menu">Category 10
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="cat2-extra">
+                            <div class="row">
+                                <div class="cat-links col-md-4">
+                                    <h5>Group-1</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-4">
+                                    <h5>Group-2</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-4">
+                                    <h5>Group-3</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cat3-menu" class="categories open-more open-more-large">
+                        <span class="link-menu">More
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                    </div>
                 </div>
             </div>
-            <div class="cat-menu">
-                <div id="cat1-menu" class="categories">
-                    <span class="link-menu">Groceries 
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                    <div class="cat1-extra">
-                        <div class="row">
-                            <div class="cat-links col-md-3">
-                                <h5>Cooking </h5>
-                                <a href="#">link 1</a>
-                                <a href="#">link 2</a>
-                                <a href="#">link 3</a>
-                                <a href="#">link 4</a>
-                                <a href="#">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-3">
-                                <h5>Oil </h5>
-                                <a href="#">link 6</a>
-                                <a href="#">link 7</a>
-                                <a href="">link 8</a>
-                                <a href="">link 9</a>
-                                <a href="">link 10</a>
-                            </div>
-                            <div class="cat-links col-md-3">
-                                <h5>Rice </h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-3">
-                                <h5>Miscellaneous</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
+            <!-- more nav list start -->
+            <div id="" class="more-nav-list more-nav-list-large">
+                <div class="nav-close-wrapper">
+                    <h3>categories</h3>
+                    <div class="more-nav-list-btn-wrapper">
+                        <h4 class="more-nav-list-btn-back-large nav-close-back-button">&#x2039;</h4>
+                    </div>
+                </div>
+                <div class="cat-menu">
+                    <div id="cat1-menu" class="categories">
+                        <span class="link-menu">Groceries 
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="cat1-extra">
+                            <div class="row">
+                                <div class="cat-links col-md-3">
+                                    <h5>Cooking </h5>
+                                    <a href="#">link 1</a>
+                                    <a href="#">link 2</a>
+                                    <a href="#">link 3</a>
+                                    <a href="#">link 4</a>
+                                    <a href="#">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-3">
+                                    <h5>Oil </h5>
+                                    <a href="#">link 6</a>
+                                    <a href="#">link 7</a>
+                                    <a href="">link 8</a>
+                                    <a href="">link 9</a>
+                                    <a href="">link 10</a>
+                                </div>
+                                <div class="cat-links col-md-3">
+                                    <h5>Rice </h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-3">
+                                    <h5>Miscellaneous</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div id="cat2-menu" class="categories">
-                    <span class="link-menu">Honey
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                    <div class="cat2-extra">
-                        <div class="row">
-                            <div class="cat-links col-md-4">
-                                <h5>Group-1</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-4">
-                                <h5>Group-2</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-4">
-                                <h5>Group-3</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="cat3-menu" class="categories">
-                    <span class="link-menu">Snacks & Refreshments
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                    <div class="cat3-extra">
-                        <div class="row">
-                            <div class="cat-links col-md-6">
-                                <h5>Group-1</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-6">
-                                <h5>Group-2</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
+                    <div id="cat2-menu" class="categories">
+                        <span class="link-menu">Honey
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="cat2-extra">
+                            <div class="row">
+                                <div class="cat-links col-md-4">
+                                    <h5>Group-1</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-4">
+                                    <h5>Group-2</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-4">
+                                    <h5>Group-3</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div id="cat4-menu" class="categories">
-                    <span class="link-menu">Fruits
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                    <div class="cat4-extra">
-                        <div class="row">
-                            <div class="cat-links col-md-12">
-                                <h5>Group-1</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
+                    <div id="cat3-menu" class="categories">
+                        <span class="link-menu">Snacks & Refreshments
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="cat3-extra">
+                            <div class="row">
+                                <div class="cat-links col-md-6">
+                                    <h5>Group-1</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-6">
+                                    <h5>Group-2</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div id="cat1-menu" class="categories">
-                    <span class="link-menu">Food for Health 
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                    <div class="cat1-extra">
-                        <div class="row">
-                            <div class="cat-links col-md-3">
-                                <h5>Group-1</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-3">
-                                <h5>Group-2</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-3">
-                                <h5>Group-3</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-3">
-                                <h5>Group-4</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
+                    <div id="cat4-menu" class="categories">
+                        <span class="link-menu">Fruits
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="cat4-extra">
+                            <div class="row">
+                                <div class="cat-links col-md-12">
+                                    <h5>Group-1</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div id="cat2-menu" class="categories">
-                    <span class="link-menu">Beauty Products
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                    <div class="cat2-extra">
-                        <div class="row">
-                            <div class="cat-links col-md-4">
-                                <h5>Group-1</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-4">
-                                <h5>Group-2</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-4">
-                                <h5>Group-3</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="cat3-menu" class="categories">
-                    <span class="link-menu">Category 7
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                    <div class="cat3-extra">
-                        <div class="row">
-                            <div class="cat-links col-md-6">
-                                <h5>Group-1</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-6">
-                                <h5>Group-2</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
+                    <div id="cat1-menu" class="categories">
+                        <span class="link-menu">Food for Health 
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="cat1-extra">
+                            <div class="row">
+                                <div class="cat-links col-md-3">
+                                    <h5>Group-1</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-3">
+                                    <h5>Group-2</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-3">
+                                    <h5>Group-3</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-3">
+                                    <h5>Group-4</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div id="cat4-menu" class="categories">
-                    <span class="link-menu">Category 8
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                    <div class="cat4-extra">
-                        <div class="row">
-                            <div class="cat-links col-md-12">
-                                <h5>Group-1</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
+                    <div id="cat2-menu" class="categories">
+                        <span class="link-menu">Beauty Products
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="cat2-extra">
+                            <div class="row">
+                                <div class="cat-links col-md-4">
+                                    <h5>Group-1</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-4">
+                                    <h5>Group-2</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-4">
+                                    <h5>Group-3</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div id="cat1-menu" class="categories">
-                    <span class="link-menu">Category 9 
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                    <div class="cat1-extra">
-                        <div class="row">
-                            <div class="cat-links col-md-3">
-                                <h5>Group-1</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-3">
-                                <h5>Group-2</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-3">
-                                <h5>Group-3</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-3">
-                                <h5>Group-4</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
+                    <div id="cat3-menu" class="categories">
+                        <span class="link-menu">Category 7
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="cat3-extra">
+                            <div class="row">
+                                <div class="cat-links col-md-6">
+                                    <h5>Group-1</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-6">
+                                    <h5>Group-2</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div id="cat2-menu" class="categories">
-                    <span class="link-menu">Category 10
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                    <div class="cat2-extra">
-                        <div class="row">
-                            <div class="cat-links col-md-4">
-                                <h5>Group-1</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-4">
-                                <h5>Group-2</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-4">
-                                <h5>Group-3</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
+                    <div id="cat4-menu" class="categories">
+                        <span class="link-menu">Category 8
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="cat4-extra">
+                            <div class="row">
+                                <div class="cat-links col-md-12">
+                                    <h5>Group-1</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div id="cat3-menu" class="categories open-more">
-                    <span class="link-menu">More
-                        <i class="fa fa-angle-right"></i>
-                    </span>
+                    <div id="cat1-menu" class="categories">
+                        <span class="link-menu">Category 9 
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="cat1-extra">
+                            <div class="row">
+                                <div class="cat-links col-md-3">
+                                    <h5>Group-1</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-3">
+                                    <h5>Group-2</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-3">
+                                    <h5>Group-3</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-3">
+                                    <h5>Group-4</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="cat2-menu" class="categories">
+                        <span class="link-menu">Category 10
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="cat2-extra">
+                            <div class="row">
+                                <div class="cat-links col-md-4">
+                                    <h5>Group-1</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-4">
+                                    <h5>Group-2</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                                <div class="cat-links col-md-4">
+                                    <h5>Group-3</h5>
+                                    <a href="">link 1</a>
+                                    <a href="">link 2</a>
+                                    <a href="">link 3</a>
+                                    <a href="">link 4</a>
+                                    <a href="">link 5</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <!-- more nav list end -->
         </div>
-        <!-- more nav list start -->
-        <div id="" class="more-nav-list">
-            <div class="nav-close-wrapper">
-                <h3>categories</h3>
-                <div class="more-nav-list-btn-wrapper">
-                    <h4 class="more-nav-list-btn-back nav-close-back-button">&#x2039;</h4>
-                </div>
-            </div>
-            <div class="cat-menu">
-                <div id="cat1-menu" class="categories">
-                    <span class="link-menu">Groceries 
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                    <div class="cat1-extra">
-                        <div class="row">
-                            <div class="cat-links col-md-3">
-                                <h5>Cooking </h5>
-                                <a href="#">link 1</a>
-                                <a href="#">link 2</a>
-                                <a href="#">link 3</a>
-                                <a href="#">link 4</a>
-                                <a href="#">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-3">
-                                <h5>Oil </h5>
-                                <a href="#">link 6</a>
-                                <a href="#">link 7</a>
-                                <a href="">link 8</a>
-                                <a href="">link 9</a>
-                                <a href="">link 10</a>
-                            </div>
-                            <div class="cat-links col-md-3">
-                                <h5>Rice </h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-3">
-                                <h5>Miscellaneous</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="cat2-menu" class="categories">
-                    <span class="link-menu">Honey
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                    <div class="cat2-extra">
-                        <div class="row">
-                            <div class="cat-links col-md-4">
-                                <h5>Group-1</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-4">
-                                <h5>Group-2</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-4">
-                                <h5>Group-3</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="cat3-menu" class="categories">
-                    <span class="link-menu">Snacks & Refreshments
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                    <div class="cat3-extra">
-                        <div class="row">
-                            <div class="cat-links col-md-6">
-                                <h5>Group-1</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-6">
-                                <h5>Group-2</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="cat4-menu" class="categories">
-                    <span class="link-menu">Fruits
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                    <div class="cat4-extra">
-                        <div class="row">
-                            <div class="cat-links col-md-12">
-                                <h5>Group-1</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="cat1-menu" class="categories">
-                    <span class="link-menu">Food for Health 
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                    <div class="cat1-extra">
-                        <div class="row">
-                            <div class="cat-links col-md-3">
-                                <h5>Group-1</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-3">
-                                <h5>Group-2</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-3">
-                                <h5>Group-3</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-3">
-                                <h5>Group-4</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="cat2-menu" class="categories">
-                    <span class="link-menu">Beauty Products
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                    <div class="cat2-extra">
-                        <div class="row">
-                            <div class="cat-links col-md-4">
-                                <h5>Group-1</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-4">
-                                <h5>Group-2</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-4">
-                                <h5>Group-3</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="cat3-menu" class="categories">
-                    <span class="link-menu">Category 7
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                    <div class="cat3-extra">
-                        <div class="row">
-                            <div class="cat-links col-md-6">
-                                <h5>Group-1</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-6">
-                                <h5>Group-2</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="cat4-menu" class="categories">
-                    <span class="link-menu">Category 8
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                    <div class="cat4-extra">
-                        <div class="row">
-                            <div class="cat-links col-md-12">
-                                <h5>Group-1</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="cat1-menu" class="categories">
-                    <span class="link-menu">Category 9 
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                    <div class="cat1-extra">
-                        <div class="row">
-                            <div class="cat-links col-md-3">
-                                <h5>Group-1</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-3">
-                                <h5>Group-2</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-3">
-                                <h5>Group-3</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-3">
-                                <h5>Group-4</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="cat2-menu" class="categories">
-                    <span class="link-menu">Category 10
-                        <i class="fa fa-angle-right"></i>
-                    </span>
-                    <div class="cat2-extra">
-                        <div class="row">
-                            <div class="cat-links col-md-4">
-                                <h5>Group-1</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-4">
-                                <h5>Group-2</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                            <div class="cat-links col-md-4">
-                                <h5>Group-3</h5>
-                                <a href="">link 1</a>
-                                <a href="">link 2</a>
-                                <a href="">link 3</a>
-                                <a href="">link 4</a>
-                                <a href="">link 5</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- more nav list end -->
     </div>
-    
-</div>
-<header id="header" class="header style-03 header-dark header-sticky">
-    <div class="header-wrap-stick">
-        <div class="header-position">
-            <div class="header-middle">
-                <div class="kreen-menu-wapper"></div>
-                <div class="header-middle-inner">
-                    <div class="header-menu">
-                        <div class="box-header-nav menu-nocenter">
-                            <div class="main-ham-menu">
-                                <span class="sidenav-icon" style="font-size:25px;cursor:pointer"
-                                    onclick="openNav()">
-                                    <div class="header-mobile-left">
-                                        <div class="block-menu-bar-2">
-                                            <a class="menu-bar " href="#">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </span>
-                                <ul id="menu-primary-menu"
-                                    class="clone-main-menu kreen-clone-mobile-menu kreen-nav main-menu">
-                                    <li class="menu-item">
-                                        <a href="index.html">Home</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="shop.html">Shop</a>
-                                    </li>
-                                </ul>
-                            </div>
+    <div id="mySidenavMobile" class="sidenav shadow">
+        <div class="side-nav-wrapper">
+            <div id="" class="main-nav-list main-nav-list-mobile">
+                <div class="nav-close-wrapper">
+                    <h3>categories</h3>
+                    <div class="nav-close-btn-wrapper">
+                        <h4 onclick="closeNav2()" class="nav-close-button nav-close-back-button">&times;</h4>
+                    </div>
+                </div>
+                <div class="cat-menu">
+                    <div id="cat1-menu" class="categories mobile-categories">
+                        <span class="link-menu">Groceries 
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="sub-category">
+                            <ul>
+                                <li>
+                                    <a class="sub-ctg-link" href="blog-grid.html">Cooking</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">Oil</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">Rice</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">Micellaneous</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="header-logo">
-                        <a href="index.html"><img alt="NEO Bazaar" src="assets/img/neo-logo.png" class="logo"></a></div>
-                    <div class="header-control">
-                        <div class="header-control-inner">
-                            <div class="meta-dreaming">
-                                <div class="box-header-nav">
-                                    <ul id="menu-primary-menu"
-                                    class="clone-main-menu kreen-clone-mobile-menu kreen-nav main-menu">
-                                    <li class="menu-item">
-                                        <a href="blog.html">Blog</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="contact.html">Contact Us</a>
-                                    </li>
-                                </ul>
-                                </div>
-                                <div class="cs-header-search">
-                                    <div class="cs-block-search">
-                                        <form action="#" class="cs-form-search">
-                                            <div class="cs-form-content">
-                                                <div class="cs-inner">
-                                                    <input autocomplete="off" class="cs-txt-livesearch" name="s" value="" placeholder="Search here..." type="text">
-                                                </div>
-                                                <div type="" class="cs-btn-submit">
-                                                    <span class="pe-7s-search"></span>
-                                                </div>
-                                                <div type="" class="cs-btn-close">
-                                                    <span class="pe-7s-close"></span>
-                                                </div>
+                    <div id="cat2-menu" class="categories mobile-categories">
+                        <span class="link-menu">Honey
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="sub-category">
+                            <ul>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-1</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-2</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-3</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-4</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="cat3-menu" class="categories mobile-categories">
+                        <span class="link-menu">Snacks & Refreshments
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="sub-category">
+                            <ul>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-1</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-2</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-3</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="cat4-menu" class="categories mobile-categories">
+                        <span class="link-menu">Fruits
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="sub-category">
+                            <ul>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-1</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-2</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-3</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-4</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="cat1-menu" class="categories mobile-categories">
+                        <span class="link-menu">Food for Health 
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="sub-category">
+                            <ul>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-1</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-2</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="cat2-menu" class="categories mobile-categories">
+                        <span class="link-menu">Beauty Products
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="sub-category">
+                            <ul>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-1</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-2</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-3</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-4</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="cat3-menu" class="categories mobile-categories">
+                        <span class="link-menu">Category 7
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="sub-category">
+                            <ul>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-1</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-2</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-3</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-4</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="cat4-menu" class="categories mobile-categories">
+                        <span class="link-menu">Category 8
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="sub-category">
+                            <ul>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-1</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-2</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-3</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-4</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="cat1-menu" class="categories mobile-categories">
+                        <span class="link-menu">Category 9 
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="sub-category">
+                            <ul>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-1</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-2</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-3</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-4</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="cat2-menu" class="categories mobile-categories">
+                        <span class="link-menu">Category 10
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="sub-category">
+                            <ul>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-1</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-2</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-3</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-4</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="cat3-menu" class="categories open-more open-more-mobile">
+                        <span class="link-menu">More
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- more nav list start -->
+            <div id="" class="more-nav-list more-nav-list-mobile">
+                <div class="nav-close-wrapper">
+                    <h3>categories</h3>
+                    <div class="more-nav-list-btn-wrapper">
+                        <h4 class="more-nav-list-btn-back-mobile nav-close-back-button">&#x2039;</h4>
+                    </div>
+                </div>
+                <div class="cat-menu">
+                    <div id="cat1-menu" class="categories mobile-categories">
+                        <span class="link-menu">Groceries 
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="sub-category">
+                            <ul>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-1</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-2</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-3</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-4</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="cat2-menu" class="categories mobile-categories">
+                        <span class="link-menu">Honey
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="sub-category">
+                            <ul>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-1</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-2</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-3</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="cat3-menu" class="categories mobile-categories">
+                        <span class="link-menu">Snacks & Refreshments
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="sub-category">
+                            <ul>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-1</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-2</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-3</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-4</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="cat4-menu" class="categories mobile-categories">
+                        <span class="link-menu">Fruits
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="sub-category">
+                            <ul>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-1</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-2</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-3</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="cat1-menu" class="categories mobile-categories">
+                        <span class="link-menu">Food for Health 
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="sub-category">
+                            <ul>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-1</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-2</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="cat2-menu" class="categories mobile-categories">
+                        <span class="link-menu">Beauty Products
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="sub-category">
+                            <ul>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-1</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-2</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-3</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="cat3-menu" class="categories mobile-categories">
+                        <span class="link-menu">Category 7
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="sub-category">
+                            <ul>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-1</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-2</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="cat4-menu" class="categories mobile-categories">
+                        <span class="link-menu">Category 8
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="sub-category">
+                            <ul>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-1</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-2</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-3</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-4</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="cat1-menu" class="categories mobile-categories">
+                        <span class="link-menu">Category 9 
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="sub-category">
+                            <ul>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-1</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-2</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-3</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="cat2-menu" class="categories mobile-categories">
+                        <span class="link-menu">Category 10
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                        <div class="sub-category">
+                            <ul>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-1</a>
+                                </li>
+                                <li>
+                                    <a class="sub-ctg-link" href="#">sub-category-2</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- more nav list end -->
+        </div>
+    </div>
+    <header id="header" class="header style-03 header-dark header-sticky">
+        <div class="header-wrap-stick">
+            <div class="header-position">
+                <div class="header-middle">
+                    <div class="kreen-menu-wapper"></div>
+                    <div class="header-middle-inner">
+                        <div class="header-menu">
+                            <div class="box-header-nav menu-nocenter">
+                                <div class="main-ham-menu">
+                                    <span class="sidenav-icon" style="font-size:25px;cursor:pointer"
+                                        onclick="openNav()">
+                                        <div class="header-mobile-left">
+                                            <div class="block-menu-bar-2">
+                                                <a class="menu-bar " href="#">
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </a>
                                             </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="menu-item block-user block-dreaming kreen-dropdown">
-                                    <a class="block-link" href="my-account.html">
-                                        <span class="pe-7s-user"></span>
-                                    </a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--dashboard is-active">
-                                            <a href="dashboard.html">Dashboard</a>
+                                        </div>
+                                    </span>
+                                    <ul id="menu-primary-menu"
+                                        class="clone-main-menu kreen-clone-mobile-menu kreen-nav main-menu">
+                                        <li class="menu-item">
+                                            <a href="index.html">Home</a>
                                         </li>
-                                        <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--orders">
-                                            <a href="orders.html">Orders</a>
-                                        </li>
-                                        <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--downloads">
-                                            <a href="wishlist.html">Favorites</a>
-                                        </li>
-                                        <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--edit-adchair">
-                                            <a href="edit-address.html">Addresses</a>
-                                        </li>
-                                        <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--edit-account">
-                                            <a href="edit-account.html">Account details</a>
-                                        </li>
-                                        <li style="display: none;" class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--customer-logout">
-                                            <a href="login.html">Login</a>
-                                        </li>
-                                        <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--customer-logout">
-                                            <a href="404.html">Logout</a>
+                                        <li class="menu-item">
+                                            <a href="shop.html">Shop</a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="header-mobile">
-        <div class="header-mobile-left">
-            <div class="block-menu-bar">
-                <a class="menu-bar menu-toggle" href="#">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </a>
-            </div>
-            <div class="header-search kreen-dropdown" id="mobile-header-search">
-                <div class="header-search-inner" data-kreen="kreen-dropdown">
-                    <!-- <a href="#" class="link-dropdown block-link">
-                        <span class="pe-7s-search"></span>
-                    </a> -->
-                </div>
-                <div class="block-search">
-                    <form role="search" method="get"
-                          class="form-search block-search-form kreen-live-search-form">
-                        <div class="form-content search-box results-search">
-                            <div class="inner">
-                                <input autocomplete="off" class="searchfield txt-livesearch input" name="s" value=""
-                                       placeholder="Search here..." type="text">
+                        <div class="header-logo">
+                            <a href="index.html"><img alt="NEO Bazaar" src="assets/img/neo-logo.png" class="logo"></a></div>
+                        <div class="header-control">
+                            <div class="header-control-inner">
+                                <div class="meta-dreaming">
+                                    <div class="box-header-nav">
+                                        <ul id="menu-primary-menu"
+                                        class="clone-main-menu kreen-clone-mobile-menu kreen-nav main-menu">
+                                        <li class="menu-item">
+                                            <a href="blog.html">Blog</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="contact.html">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                    <div class="cs-header-search">
+                                        <div class="cs-block-search">
+                                            <form action="#" class="cs-form-search">
+                                                <div class="cs-form-content">
+                                                    <div class="cs-inner">
+                                                        <input autocomplete="off" class="cs-txt-livesearch" name="s" value="" placeholder="Search here..." type="text">
+                                                    </div>
+                                                    <div type="" class="cs-btn-submit">
+                                                        <span class="pe-7s-search"></span>
+                                                    </div>
+                                                    <div type="" class="cs-btn-close">
+                                                        <span class="pe-7s-close"></span>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item block-user block-dreaming kreen-dropdown">
+                                        <a class="block-link" href="my-account.html">
+                                            <span class="pe-7s-user"></span>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--dashboard is-active">
+                                                <a href="dashboard.html">Dashboard</a>
+                                            </li>
+                                            <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--orders">
+                                                <a href="orders.html">Orders</a>
+                                            </li>
+                                            <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--downloads">
+                                                <a href="wishlist.html">Favorites</a>
+                                            </li>
+                                            <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--edit-adchair">
+                                                <a href="edit-address.html">Addresses</a>
+                                            </li>
+                                            <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--edit-account">
+                                                <a href="edit-account.html">Account details</a>
+                                            </li>
+                                            <li style="display: none;" class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--customer-logout">
+                                                <a href="login.html">Login</a>
+                                            </li>
+                                            <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--customer-logout">
+                                                <a href="404.html">Logout</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <input name="post_type" value="product" type="hidden">
-                        <input name="taxonomy" value="product_cat" type="hidden">
-                        <button type="submit" class="btn-submit">
-                            <span class="pe-7s-search"></span>
-                        </button>
-                    </form><!-- block search -->
-                </div>
-            </div>
-        </div>
-        <div class="header-mobile-mid">
-            <div class="header-logo">
-                <a href="index.html"><img alt="NEO Bazaar" src="assets/img/neo-logo.png" class="logo"></a></div>
-        </div>
-        <div class="header-mobile-right">
-            <div class="header-control-inner">
-                <div class="meta-dreaming">
-                    <div class="menu-item block-user block-dreaming kreen-dropdown">
-                        <a class="block-link d-none d-xl-block" href="my-account.html">
-                            <span class="pe-7s-user"></span>
-                        </a>
-                        <ul class="sub-menu">
-                            <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--dashboard is-active">
-                                <a href="dashboard.html">Dashboard</a>
-                            </li>
-                            <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--orders">
-                                <a href="orders.html">Orders</a>
-                            </li>
-                            <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--downloads">
-                                <a href="wishlist.html">Favorites</a>
-                            </li>
-                            <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--edit-adchair">
-                                <a href="edit-address.html">Addresses</a>
-                            </li>
-                            <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--edit-account">
-                                <a href="my-account.html">My Account</a>
-                            </li>
-                            <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--edit-account">
-                                <a href="edit-account.html">Account details</a>
-                            </li>
-                            <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--customer-logout">
-                                <a href="#">Logout</a>
-                            </li>
-                        </ul>
-                        <a class="block-link d-block d-xl-none" href="#" onclick="return false">
-                            <span class="pe-7s-user"></span>
-                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</header>
+        <div class="header-mobile">
+            <div class="header-mobile-left">
+                <span class="sidenav-icon" style="font-size:25px;cursor:pointer" onclick="openNav2()">
+                    <div class="block-menu-bar-2">
+                        <a class="menu-bar " href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                </span>
+                <div class="header-search kreen-dropdown" id="mobile-header-search">
+                    <div class="header-search-inner" data-kreen="kreen-dropdown">
+                        <!-- <a href="#" class="link-dropdown block-link">
+                            <span class="pe-7s-search"></span>
+                        </a> -->
+                    </div>
+                    <div class="block-search">
+                        <form role="search" method="get"
+                                class="form-search block-search-form kreen-live-search-form">
+                            <div class="form-content search-box results-search">
+                                <div class="inner">
+                                    <input autocomplete="off" class="searchfield txt-livesearch input" name="s" value=""
+                                            placeholder="Search here..." type="text">
+                                </div>
+                            </div>
+                            <input name="post_type" value="product" type="hidden">
+                            <input name="taxonomy" value="product_cat" type="hidden">
+                            <button type="submit" class="btn-submit">
+                                <span class="pe-7s-search"></span>
+                            </button>
+                        </form><!-- block search -->
+                    </div>
+                </div>
+            </div>
+            <div class="header-mobile-mid">
+                <div class="header-logo">
+                    <a href="index.html"><img alt="NEO Bazaar" src="assets/img/neo-logo.png" class="logo"></a></div>
+            </div>
+            <div class="header-mobile-right">
+                <div class="header-control-inner">
+                    <div class="meta-dreaming">
+                        <div class="menu-item block-user block-dreaming kreen-dropdown">
+                            <a class="block-link d-none d-xl-block" href="my-account.html">
+                                <span class="pe-7s-user"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--dashboard is-active">
+                                    <a href="dashboard.html">Dashboard</a>
+                                </li>
+                                <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--orders">
+                                    <a href="orders.html">Orders</a>
+                                </li>
+                                <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--downloads">
+                                    <a href="wishlist.html">Favorites</a>
+                                </li>
+                                <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--edit-adchair">
+                                    <a href="edit-address.html">Addresses</a>
+                                </li>
+                                <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--edit-account">
+                                    <a href="my-account.html">My Account</a>
+                                </li>
+                                <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--edit-account">
+                                    <a href="edit-account.html">Account details</a>
+                                </li>
+                                <li class="menu-item kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--customer-logout">
+                                    <a href="#">Logout</a>
+                                </li>
+                            </ul>
+                            <a class="block-link d-block d-xl-none" href="#" onclick="return false">
+                                <span class="pe-7s-user"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 <!-- fixed style cart start -->
 <div class="meta-dreaming p-fixed">
     <div class="block-minicart block-dreaming kreen-mini-cart kreen-dropdown" id="mobile-cart" tabindex="-1">
@@ -1028,21 +1441,22 @@
     <div class="section-001 section-009">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-12 col-lg-4">
                     <div class="logo-wapper">
                         <div class="footer-logo">
                             <a href="index.html"><img alt="NEO Bazaar" src="assets/img/neo-logo.png" class="logo"></a>
                         </div>
-                        <p>After had a long survey we feel that there is a huge lack of pure and safe products in exchange of money. Realizing this we decided to produce and import high quality products for ourselves. Also the same products for the interested customer.</p>
+                        <p>After had a long survey we feel that there is a huge lack of pure and safe products in exchange of money. Realizing this we decided to produce and import high quality products for ourselves.</p>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-12 col-lg-4">
                     <div class="link-wapper">
                         <h3>Addtional Links</h3>
                         <div class="row">
                             <div class="col-5 col-md-5">
                                 <ul>
                                     <li><a href="about.html">about us</a></li>
+                                    <li class="d-block d-xl-none"><a href="contact.html">contact us</a></li>
                                     <li><a href="order-tracking.html">track order</a></li>
                                     <li><a href="faq.html">FAQ</a></li>
                                 </ul>
@@ -1052,12 +1466,13 @@
                                     <li><a href="terms-condition.html">terms & conditions</a></li>
                                     <li><a href="privacy-policy.html">privacy policy</a></li>
                                     <li><a href="#">Store Locator</a></li>
+                                    <li class="d-block d-xl-none"><a href="blog.html">blog</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-12 col-lg-4">
                     <div class="kreen-newsletter style-01">
                         <div class="newsletter-inner">
                             <div class="newsletter-info">
@@ -1088,20 +1503,20 @@
     <div class="section-010">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12 col-lg-6 order-1 order-lg-0">
                     <p>© Copyright 2021 <a href="index.html">NEO Bazaar</a>. All Rights Reserved.</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-12 col-lg-6 order-0 order-lg-1">
                     <div class="kreen-socials style-01">
                         <div class="content-socials">
                             <ul class="socials-list">
                                 <li>
-                                    <a href="https://facebook.com/" target="_blank">
+                                    <a href="#" target="_blank">
                                         <i class="fa fa-facebook"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.instagram.com/" target="_blank">
+                                    <a href="#" target="_blank">
                                         <i class="fa fa-instagram"></i>
                                     </a>
                                 </li>
