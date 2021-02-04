@@ -1,22 +1,36 @@
-
 function openNav() {
-    document.getElementById("mySidenavLarge").style.width = "280px";
-    //document.getElementById("dark-bg").style.display = 'block';
-  }
-  
-  function closeNav() {
-    document.getElementById("mySidenavLarge").style.width = "0";
-    //document.getElementById("dark-bg").style.display = 'none';
-  }
-  function openNav2() {
-    document.getElementById("mySidenavMobile").style.width = "280px";
-    //document.getElementById("dark-bg").style.display = 'block';
-  }
-  
-  function closeNav2() {
-    document.getElementById("mySidenavMobile").style.width = "0";
-    //document.getElementById("dark-bg").style.display = 'none';
-  }
+  document.getElementById("mySidenavLarge").style.width = "280px";
+  //document.getElementById("dark-bg").style.display = 'block';
+}
+
+function closeNav() {
+  document.getElementById("mySidenavLarge").style.width = "0";
+  //document.getElementById("dark-bg").style.display = 'none';
+}
+function openNav2() {
+  document.getElementById("mySidenavMobile").style.width = "280px";
+  //document.getElementById("dark-bg").style.display = 'block';
+}
+
+function closeNav2() {
+  document.getElementById("mySidenavMobile").style.width = "0";
+  //document.getElementById("dark-bg").style.display = 'none';
+}
+$(document).ready(function (){
+  //more nav list
+  $(".open-more-large").click(function() {
+    $(".main-nav-list-large, .more-nav-list-large").addClass("more-active");
+  })
+  $(".more-nav-list-btn-back").click(function() {
+    $(".main-nav-list-large, .more-nav-list-large").removeClass("more-active");
+  })
+
+  // mobile menu sub category toggle
+  $(".mobile-categories").click(function() {
+    $(this).toggleClass("sub-ctg-active");
+  })
+})
+
 
   
   $(document).ready(function () {
@@ -31,16 +45,6 @@ function openNav() {
       $(".cs-txt-livesearch").removeClass("sopen");
       $(".cs-btn-close").removeClass("cs-show");
       $(".cs-btn-submit").removeClass("cs-hide");
-    })
-
-
-
-    //more nav list
-    $(".open-more-large").click(function() {
-      $(".main-nav-list-large, .more-nav-list-large").addClass("more-active");
-    })
-    $(".more-nav-list-btn-back").click(function() {
-      $(".main-nav-list-large, .more-nav-list-large").removeClass("more-active");
     })
 
     //mobile footer search activation
