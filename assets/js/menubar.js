@@ -1,20 +1,20 @@
 
 function openNav() {
-    document.getElementById("mySidenav").style.width = "280px";
+    document.getElementById("mySidenavLarge").style.width = "280px";
     //document.getElementById("dark-bg").style.display = 'block';
   }
   
   function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("mySidenavLarge").style.width = "0";
     //document.getElementById("dark-bg").style.display = 'none';
   }
   function openNav2() {
-    document.getElementById("mySidenav-2").style.width = "280px";
+    document.getElementById("mySidenavMobile").style.width = "280px";
     //document.getElementById("dark-bg").style.display = 'block';
   }
   
   function closeNav2() {
-    document.getElementById("mySidenav-2").style.width = "0";
+    document.getElementById("mySidenavMobile").style.width = "0";
     //document.getElementById("dark-bg").style.display = 'none';
   }
 
@@ -36,11 +36,11 @@ function openNav() {
 
 
     //more nav list
-    $(".open-more").click(function() {
-      $(".main-nav-list, .more-nav-list").addClass("more-active");
+    $(".open-more-large").click(function() {
+      $(".main-nav-list-large, .more-nav-list-large").addClass("more-active");
     })
     $(".more-nav-list-btn-back").click(function() {
-      $(".main-nav-list, .more-nav-list").removeClass("more-active");
+      $(".main-nav-list-large, .more-nav-list-large").removeClass("more-active");
     })
 
     //mobile footer search activation
