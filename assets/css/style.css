@@ -5827,9 +5827,9 @@ body.admin-bar #yith-quick-view-modal {
 	top: 32px;
 }
 @media (max-width: 767px) {
-	.yith-wcqv-button {
+	/* .yith-wcqv-button {
 		display: none !important;
-	}
+	} */
 	body.admin-bar #yith-quick-view-modal {
 		top: 46px;
 	}
@@ -7034,7 +7034,7 @@ body.admin-bar #yith-quick-view-modal {
 	}
 	.add-to-cart,
 	.compare-button,
-	.yith-wcwl-add-to-wishlist {
+	.yith-wcwl-add-to-wishlist, .yith-wcqv-button {
 		min-width: 30px;
 		width: 30px;
 		height: 30px;
