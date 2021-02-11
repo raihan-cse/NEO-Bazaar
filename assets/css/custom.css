@@ -1326,7 +1326,8 @@ div.quantity .btn-number.quantity-minus::before {
 /* --accordion-- */
 .faq-accordion .card {
     margin-bottom: 30px;
-    border: 1px solid #666666;
+    /* border: 1px solid #666666; */
+    border: 1px solid #cecdcd;
     overflow: hidden;
     margin-bottom: 16px;
 }
@@ -1372,7 +1373,7 @@ div.quantity .btn-number.quantity-minus::before {
 
 .faq-accordion .card .card-body {
     background-color: #f5f5f5;
-    border-top: 1px solid #666666;
+    border-top: 1px solid #cecdcd;
     padding: .25rem .75rem;
 }
 
@@ -1381,7 +1382,7 @@ div.quantity .btn-number.quantity-minus::before {
 
 .faq-tab-wrapper {
     background-color: #f5f5f5;
-    border: 1px solid #666666;
+    border: 1px solid #cecdcd;
     border-radius: .25rem;
     overflow: hidden;
 }
@@ -1391,9 +1392,9 @@ div.quantity .btn-number.quantity-minus::before {
     padding: .25rem .75rem;
 }
 
-.faq-tab-wrapper .nav-pills .nav-link:not(:last-child) {
+/* .faq-tab-wrapper .nav-pills .nav-link:not(:last-child) {
     border-bottom: 1px solid #666666;
-}
+} */
 
 .faq-tab-wrapper .nav-pills .nav-link.active,
 .faq-tab-wrapper .nav-pills .show>.nav-link {
