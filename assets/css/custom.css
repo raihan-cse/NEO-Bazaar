@@ -535,6 +535,14 @@
     width: 60px;
 }
 
+/* search product for mobile */
+.header-mobile .block-search .cs-prd-wrapper {
+    position: initial;
+    width: 100%;
+} 
+
+/* search product end */
+
 
 /* add to cart fixed positon */
 
@@ -938,6 +946,7 @@ quantity quick select option
     z-index: 2;
     transform: translateY(100%);
     transition: all .5s ease-in-out;
+    display: none;
 }
 
 .qt-btn-close {
@@ -1414,6 +1423,57 @@ div.quantity .btn-number.quantity-minus::before {
     color: #666;
 }
 
+
+/* login / register page */
+#customer_login {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#customer_login .col-1, #customer_login .col-2 {
+    width: 100%;
+}
+.form-row.lost-pass > label {
+    display: inline-block;
+}
+.form-row.lost-pass > label:nth-child(odd) {
+    float: right;
+}
+.form-row.lost-pass > label:nth-child(even) {
+    float: left;
+}
+form.kreen-form-login .lost_password {
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+form.kreen-form-login .lost_password a {
+    padding-bottom: 0;
+}
+form.kreen-form-login .lost_password a::before {
+    border: none;
+}
+.kreen-form__label-for-checkbox > span::before {
+    background-color: #c5c5c5;
+}
+.kreen-social-login h6 {
+    margin-bottom: 16px;
+}
+.kreen-create-account {
+    text-align: center;
+}
+.kreen-create-account .create-account-link {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.kreen-create-account p {
+    margin-bottom: 0;
+}
+.kreen-create-account p:not(:last-child) {
+    padding-bottom: 8px;
+    font-weight: 500;
+}
 
 @media (max-width:320px) {
     .qt-drop-wrapper {

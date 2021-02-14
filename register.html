@@ -1344,11 +1344,11 @@
                     <div class="kreen">
                         <div class="kreen-notices-wrapper"></div>
                         <div class="u-columns col2-set" id="customer_login">
-                            <div class="u-column1 col-1">
+                            <!-- <div class="u-column1 col-1">
                                 <h2>Login</h2>
                                 <form class="kreen-form kreen-form-login login" method="post">
                                     <p class="kreen-form-row kreen-form-row--wide form-row form-row-wide">
-                                        <label for="username">Email/Mobile Number&nbsp;<span
+                                        <label for="username">Username or email adchair&nbsp;<span
                                                 class="required">*</span></label>
                                         <input type="text" class="kreen-Input kreen-Input--text input-text"
                                                name="username" id="username" autocomplete="username" value=""></p>
@@ -1358,7 +1358,7 @@
                                                type="password" name="password" id="password"
                                                autocomplete="current-password">
                                     </p>
-                                    <p class="form-row lost-pass">
+                                    <p class="form-row">
                                         <input type="hidden" id="kreen-login-nonce" name="kreen-login-nonce"
                                                value="832993cb93"><input type="hidden" name="_wp_http_referer"
                                                                          value="/kreen/my-account/">
@@ -1370,14 +1370,11 @@
                                                    name="rememberme" type="checkbox" id="rememberme" value="forever">
                                             <span>Remember me</span>
                                         </label>
-                                        <label class="kreen-LostPassword lost_password">
-                                            <a href="#">Lost your password?</a>
-                                        </label>
                                     </p>
-                                    <!-- <p class="kreen-LostPassword lost_password">
+                                    <p class="kreen-LostPassword lost_password">
                                         <a href="#">Lost your
                                             password?</a>
-                                    </p> -->
+                                    </p>
                                     <div class="kreen-social-login">
                                         <h6>Connect a social network</h6>
                                         <ul>
@@ -1391,14 +1388,63 @@
                                                     <i class="fa fa-google"></i>
                                                 </a>
                                             </li>
+                                            <li>
+                                                <a  class="login-twitter" href="#" target="_blank">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
                                         </ul>
                                     </div>
-                                    <div class="kreen-create-account">
-                                        <p>No account yet?</p>
-                                        <p>
-                                            <a class="create-account-link" href="register.html">create an account</a>
-                                        </p>
+                                </form>
+                            </div> -->
+                            <div class="u-column2 col-2">
+                                <h2>Register</h2>
+                                <form method="post" class="kreen-form kreen-form-register register">
+                                    <p class="kreen-form-row kreen-form-row--wide form-row form-row-wide">
+                                        <label for="reg_email">Name&nbsp;<span
+                                                class="required">*</span></label>
+                                        <input type="text" class="kreen-Input kreen-Input--text input-text"
+                                               name="name" id="full_name" value="">
+                                    </p>
+                                    <p class="kreen-form-row kreen-form-row--wide form-row form-row-wide">
+                                        <label for="reg_email">Mobile Number&nbsp;<span
+                                                class="required">*</span></label>
+                                        <input type="text" class="kreen-Input kreen-Input--text input-text"
+                                               name="mobile-number" id="mobile_number" value="">
+                                    </p>
+                                    <p class="kreen-form-row kreen-form-row--wide form-row form-row-wide">
+                                        <label for="reg_email">Email Address&nbsp;<span
+                                                class="required">*</span></label>
+                                        <input type="email" class="kreen-Input kreen-Input--text input-text"
+                                               name="email" id="reg_email" autocomplete="email" value="">
+                                    </p>
+                                    <p class="kreen-form-row kreen-form-row--wide form-row form-row-wide">
+                                        <label for="reg_email">Password&nbsp;<span
+                                                class="required">*</span></label>
+                                        <input type="password" class="kreen-Input kreen-Input--text input-text"
+                                               name="password" id="password" value="">
+                                    </p>
+                                    <p class="kreen-form-row kreen-form-row--wide form-row form-row-wide">
+                                        <label for="reg_email">Confirm Password&nbsp;<span
+                                                class="required">*</span></label>
+                                        <input type="password" class="kreen-Input kreen-Input--text input-text"
+                                               name="password-confirmation" id="conf_password" value="">
+                                    </p>
+                                    <div class="kreen-privacy-policy-text"><p>Your personal data will be used to
+                                        support your experience throughout this website, to manage access to your
+                                        account, and for other purposes described in our <a
+                                                href="#" class="kreen-privacy-policy-link"
+                                                target="_blank">privacy policy</a>.</p>
                                     </div>
+                                    <p class="kreen-FormRow form-row">
+                                        <input type="hidden" id="kreen-register-nonce"
+                                               name="kreen-register-nonce" value="45fae70a87"><input type="hidden"
+                                                                                                           name="_wp_http_referer"
+                                                                                                           value="/kreen/my-account/">
+                                        <button type="submit" class="kreen-Button button" name="register"
+                                                value="Register">Register
+                                        </button>
+                                    </p>
                                 </form>
                             </div>
                         </div>

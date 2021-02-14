@@ -91,12 +91,12 @@ $(document).ready(function (){
     })
 
     //select single quantity options
-    $(".qt-select-open.qt-single-open").click(function() {
-      $(".qt-drop-wrapper.qt-single").css("transform","translateY(0)");
-    })
-    $(".qt-btn-close.qt-single-close").click(function() {
-      $(".qt-drop-wrapper.qt-single").css("transform","translateY(100%)");
-    })
+    // $(".qt-select-open.qt-single-open").click(function() {
+    //   $(".qt-drop-wrapper.qt-single").css("transform","translateY(0)");
+    // })
+    // $(".qt-btn-close.qt-single-close").click(function() {
+    //   $(".qt-drop-wrapper.qt-single").css("transform","translateY(100%)");
+    // })
 
     //open cart quantity
     $(".qt-btn-ad-to-cart.cart-multiple").click(function() {
