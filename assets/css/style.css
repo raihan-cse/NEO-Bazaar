@@ -5827,9 +5827,9 @@ body.admin-bar #yith-quick-view-modal {
 	top: 32px;
 }
 @media (max-width: 767px) {
-	/* .yith-wcqv-button {
+	.yith-wcqv-button {
 		display: none !important;
-	} */
+	}
 	body.admin-bar #yith-quick-view-modal {
 		top: 46px;
 	}
@@ -7050,9 +7050,9 @@ body.admin-bar #yith-quick-view-modal {
 	.compare::before {
 		font-size: 14px;
 	}
-	/*.product-item .group-button {*/
-	/*display: none !important;*/
-	/*}*/
+	/* .product-item .group-button {
+	display: none !important;
+	} */
 	.product-item .product-name {
 		font-size: 14px;
 		text-overflow: ellipsis;

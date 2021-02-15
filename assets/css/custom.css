@@ -946,7 +946,7 @@ quantity quick select option
     z-index: 2;
     transform: translateY(100%);
     transition: all .5s ease-in-out;
-    display: none;
+    /* display: none; */
 }
 
 .qt-btn-close {
@@ -1503,6 +1503,7 @@ form.kreen-form-login .lost_password a::before {
 @media (max-width:375px) {
     .product-item.style-04 .product-thumb > .thumb-link {
         pointer-events: none;
+        position: initial;
     }
     .qt-drop-wrapper {
         padding: 0 8px 0;
@@ -1554,5 +1555,10 @@ form.kreen-form-login .lost_password a::before {
     }
     .product-item .price del {
         font-size: 14px;
+    }
+    .entry-summary .cart .single_add_to_cart_button {
+        height: 38px;
+        line-height: 38px;
+        min-width: 150px;
     }
 }
