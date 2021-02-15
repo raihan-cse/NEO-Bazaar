@@ -880,13 +880,6 @@ a.backtotop:hover>i {
 }
 
 
-/* pagination style */
-
-
-/* .kreen-pagination .page-numbers.prev, .kreen-pagination .page-numbers.next, .comments-pagination .page-numbers.prev, .comments-pagination .page-numbers.next, .pagination .page-numbers.prev, .pagination .page-numbers.next {
-  font-size: 0;
-} */
-
 
 /* =========================
 product quick view
@@ -1031,7 +1024,6 @@ quantity quick select option
 div.quantity {
     width: auto;
     overflow: hidden;
-    /* border: 1px solid #3084bb; */
 }
 
 div.quantity .input-qty {
@@ -1067,6 +1059,17 @@ div.quantity .btn-number.quantity-plus::before {
 
 div.quantity .btn-number.quantity-minus::before {
     content: "\f068";
+}
+
+/* why us / icon box */
+.kreen-iconbox.style-02 .iconbox-inner .icon svg {
+    width: 62px;
+    fill: #3084bb;
+}
+.kreen-iconbox.style-02 .iconbox-inner:hover .icon svg {
+    -webkit-animation: bounceIn 0.3s ease;
+    -o-animation: bounceIn 0.3s ease;
+    animation: bounceIn 0.3s ease;
 }
 
 
