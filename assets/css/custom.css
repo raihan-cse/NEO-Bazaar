@@ -1072,23 +1072,25 @@ div.quantity .btn-number.quantity-minus::before {
     animation: bounceIn 0.3s ease;
 }
 
-.slick-slider.main-banner {
-    height: calc(100vh - 90px);
-    /* height: calc(100vh); */
-}
-.slick-slider.main-banner img {
-    height: calc(100vh - 90px);
-    /* height: calc(100vh); */
-    /* width: calc(100% + 90px); */
-}
-.slick-slider.main-banner .slide-wrap {
-    height: calc(100vh - 90px);
+@media (min-widht: 992px) {
+    .slick-slider.main-banner {
+        height: calc(100vh - 90px);
+        /* height: calc(100vh); */
+    }
+    .slick-slider.main-banner img {
+        height: calc(100vh - 90px);
+        /* height: calc(100vh); */
+        /* width: calc(100% + 90px); */
+    }
+    .slick-slider.main-banner .slide-wrap {
+        height: calc(100vh - 90px);
 
-}
-.slick-slider.main-banner .slide-wrap img {
-    min-height: auto;
-    object-fit: cover;
-    /* width: 100%; */
+    }
+    .slick-slider.main-banner .slide-wrap img {
+        min-height: auto;
+        object-fit: fill;
+        width: 100%;
+    }
 }
 
 
