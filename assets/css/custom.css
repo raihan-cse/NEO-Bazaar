@@ -1031,13 +1031,17 @@ quantity quick select option
 div.quantity {
     width: auto;
     overflow: hidden;
-    border: 1px solid #3084bb;
+    /* border: 1px solid #3084bb; */
 }
 
 div.quantity .input-qty {
     width: 62px;
     height: 44px;
     line-height: 44px;
+    border-style: solid;
+    border-color: #3084bb;
+    border-width: 1px 0 1px 0;
+    border-radius: 0;
 }
 
 div.quantity .btn-number {
@@ -1324,8 +1328,6 @@ div.quantity .btn-number.quantity-minus::before {
     border: 1px solid #b9b9b9;
     border-radius: 8px;
     padding: 12px 16px;
-    /* max-width: 940px;
-  margin: 0 auto; */
 }
 
 
@@ -1476,6 +1478,10 @@ form.kreen-form-login .lost_password a::before {
 }
 
 @media (max-width:320px) {
+    .qt-btn-close {
+        display: inline-block;
+        float: right;
+    }
     .qt-drop-wrapper {
         padding: 0 8px 0;
     }
@@ -1486,25 +1492,52 @@ form.kreen-form-login .lost_password a::before {
         font-size: 14px;
     }
     .qt-drop-wrapper .select-weight-wrapper {
-        margin: 0;
+        margin: 0 0 4px;
     }
     .qt-drop-wrapper .select-weight-wrapper label {
         margin-bottom: .25rem;
         font-size: 14px;
+        display: inline-block;
+        float: left;
     }
     .qt-drop-wrapper .select-weight-wrapper select {
         height: 32px;
         line-height: 28px;
+        font-size: 14px;
     }
     .qt-price-wrapper {
-        margin-bottom: 0px;
+        margin-bottom: 4px;
+    }
+    .qt-btn-ad-to-cart {
+        height: 38px;
+        line-height: 38px;
+    }
+    div.quantity {
+        border: 0;
+    }
+    div.quantity .btn-number {
+        width: 32px;
+        height: 38px;
+        line-height: 38px;
+    }
+    div.quantity .input-qty {
+        width: 58px;
+        height: 38px;
+        line-height: 38px;
+    }
+    .product-item .price {
+        font-size: 14px;
+    }
+    .product-item .price del {
+        font-size: 14px;
+    }
+    .entry-summary .cart .single_add_to_cart_button {
+        height: 38px;
+        line-height: 38px;
+        min-width: 150px;
     }
 }
-@media (max-width:375px) {
-    .product-item.style-04 .product-thumb > .thumb-link {
-        pointer-events: none;
-        position: initial;
-    }
+@media (min-width: 321px) and (max-width:375px) {
     .qt-drop-wrapper {
         padding: 0 8px 0;
     }
@@ -1545,10 +1578,6 @@ form.kreen-form-login .lost_password a::before {
         width: 62px;
         height: 38px;
         line-height: 38px;
-        border-width: 1px 0 1px 0;
-        border-style: solid;
-        border-color: #3084bb;
-        border-radius: 0;
     }
     .product-item .price {
         font-size: 14px;
@@ -1560,5 +1589,103 @@ form.kreen-form-login .lost_password a::before {
         height: 38px;
         line-height: 38px;
         min-width: 150px;
+    }
+}
+@media (min-width: 376px) and (max-width: 414px) {
+    .qt-drop-wrapper {
+        padding: 0 8px 0;
+    }
+    .qt-btn-close span {
+        font-size: 15px;
+    }
+    .qt-btn-close .qt-close {
+        font-size: 15px;
+    }
+    .qt-drop-wrapper .select-weight-wrapper {
+        margin: 0 0 8px;
+    }
+    .qt-drop-wrapper .select-weight-wrapper label {
+        margin-bottom: .5rem;
+        font-size: 15px;
+    }
+    .qt-drop-wrapper .select-weight-wrapper select {
+        height: 32px;
+        line-height: 28px;
+        font-size: 15px;
+    }
+    .qt-price-wrapper {
+        margin-bottom: 8px;
+    }
+    .qt-btn-ad-to-cart {
+        height: 38px;
+        line-height: 38px;
+    }
+    div.quantity {
+        border: 0;
+    }
+    div.quantity .btn-number {
+        width: 42px;
+        height: 38px;
+        line-height: 38px;
+    }
+    div.quantity .input-qty {
+        width: 62px;
+        height: 38px;
+        line-height: 38px;
+    }
+    .product-item .price {
+        font-size: 15px;
+    }
+    .product-item .price del {
+        font-size: 15px;
+    }
+    .entry-summary .cart .single_add_to_cart_button {
+        height: 38px;
+        line-height: 38px;
+        min-width: 150px;
+    }
+}
+@media (min-width: 415px) and (max-width: 768px) {
+    .qt-drop-wrapper {
+        padding: 0 8px 0;
+    }
+    .qt-btn-close span {
+        font-size: 16px;
+    }
+    .qt-btn-close .qt-close {
+        font-size: 16px;
+    }
+    .qt-drop-wrapper .select-weight-wrapper {
+        margin: 0 0 8px;
+    }
+    .qt-drop-wrapper .select-weight-wrapper label {
+        margin-bottom: .5rem;
+        font-size: 16px;
+    }
+    .qt-drop-wrapper .select-weight-wrapper select {
+        height: 42px;
+        line-height: 42px;
+        font-size: 16px;
+    }
+    .qt-price-wrapper {
+        margin-bottom: 8px;
+    }
+    .qt-btn-ad-to-cart {
+        height: 44px;
+        line-height: 44px;
+    }
+    div.quantity {
+        border: 0;
+    }
+    .product-item .price {
+        font-size: 16px;
+    }
+    .product-item .price del {
+        font-size: 16px;
+    }
+}
+@media (max-width: 1024px) {
+    .product-item.style-04 .product-thumb > .thumb-link {
+        pointer-events: none;
     }
 }
