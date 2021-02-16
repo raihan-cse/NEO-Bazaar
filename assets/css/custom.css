@@ -514,8 +514,10 @@
     z-index: 1010;
     overflow: hidden;
     overflow-y: auto;
-    max-height: 462px;
+    max-height: 62px;
     display: none;
+    scrollbar-width: thin;
+    scrollbar-color: #b8b8b8 #f1f1f1;
 }
 
 .cs-prd-wrapper.cs-active {
@@ -1102,6 +1104,7 @@ div.quantity .btn-number.quantity-minus::before {
     animation: bounceIn 0.3s ease;
 }
 
+/* top banner slide */
 @media (min-width: 1025px) {
     .slick-slider.main-banner {
         height: calc(100vh - 90px);
