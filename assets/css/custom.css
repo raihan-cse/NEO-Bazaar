@@ -1072,15 +1072,12 @@ div.quantity .btn-number.quantity-minus::before {
     animation: bounceIn 0.3s ease;
 }
 
-@media (min-widht: 992px) {
+@media (min-width: 1025px) {
     .slick-slider.main-banner {
         height: calc(100vh - 90px);
-        /* height: calc(100vh); */
     }
     .slick-slider.main-banner img {
         height: calc(100vh - 90px);
-        /* height: calc(100vh); */
-        /* width: calc(100% + 90px); */
     }
     .slick-slider.main-banner .slide-wrap {
         height: calc(100vh - 90px);
@@ -1092,6 +1089,7 @@ div.quantity .btn-number.quantity-minus::before {
         width: 100%;
     }
 }
+
 
 
 /* single product page */
@@ -1320,7 +1318,7 @@ div.quantity .btn-number.quantity-minus::before {
     }
 }
 
-.cart_totals>h2 {
+.cart_totals > h2 {
     color: #000;
     text-align: center;
     padding: 20px;
@@ -1345,7 +1343,6 @@ div.quantity .btn-number.quantity-minus::before {
 
 
 /* privacy policy page start */
-
 .pp-main-content {
     background-color: #e0e0e0;
     min-height: 450px;
@@ -1356,7 +1353,6 @@ div.quantity .btn-number.quantity-minus::before {
 
 
 /* faq page start */
-
 
 /* --accordion-- */
 .faq-accordion .card {
@@ -1502,6 +1498,12 @@ form.kreen-form-login .lost_password a::before {
 }
 
 @media (max-width:320px) {
+    .slick-slider.main-banner .slide-wrap {
+        padding-top: 60px;
+    }
+    .slide-wrap img {
+        min-height: 148px;
+    }
     .qt-btn-close {
         display: inline-block;
         float: right;
@@ -1562,6 +1564,12 @@ form.kreen-form-login .lost_password a::before {
     }
 }
 @media (min-width: 321px) and (max-width:375px) {
+    .slick-slider.main-banner .slide-wrap {
+        padding-top: 60px;
+    }
+    .slide-wrap img {
+        min-height: 168px;
+    }
     .qt-drop-wrapper {
         padding: 0 8px 0;
     }
@@ -1616,6 +1624,12 @@ form.kreen-form-login .lost_password a::before {
     }
 }
 @media (min-width: 376px) and (max-width: 414px) {
+    .slick-slider.main-banner .slide-wrap {
+        padding-top: 60px;
+    }
+    .slide-wrap img {
+        min-height: 178px;
+    }
     .qt-drop-wrapper {
         padding: 0 8px 0;
     }
@@ -1670,6 +1684,9 @@ form.kreen-form-login .lost_password a::before {
     }
 }
 @media (min-width: 415px) and (max-width: 768px) {
+    .slide-wrap img {
+        min-height: 188px;
+    }
     .qt-drop-wrapper {
         padding: 0 8px 0;
     }

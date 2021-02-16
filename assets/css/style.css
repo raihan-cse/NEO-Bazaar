@@ -13394,7 +13394,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 }
 .slide-wrap img {
 	min-height: 400px;
-	object-fit: cover;
+	object-fit: fill;
 }
 .slide-wrap .slide-info a {
 	display: inline-block;
@@ -13693,7 +13693,7 @@ body .az_toggle_default .az_toggle_content p:last-child {
 		bottom: 5px;
 	}
 	.slide-wrap img {
-		min-height: 280px;
+		min-height: 220px;
 	}
 	.slide-home-01 .slide-wrap .slide-info h5 {
 		font-size: 16px;
