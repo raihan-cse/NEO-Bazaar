@@ -16,6 +16,7 @@ function closeNav2() {
   document.getElementById("mySidenavMobile").style.width = "0";
   //document.getElementById("dark-bg").style.display = 'none';
 }
+
 $(document).ready(function (){
   //more nav list large
   $(".open-more-large").click(function() {

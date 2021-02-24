@@ -24,6 +24,11 @@
     <title>NEO Bazaar </title>
 </head>
 <body>
+    <div class="loader" >
+        <div class="loading-image">
+            <img src="assets/img/gif_2.gif" alt="">
+        </div>
+    </div>
 <div id="mySidenavLarge" class="sidenav shadow">
     <div class="side-nav-wrapper">
         <div id="" class="main-nav-list main-nav-list-large">
@@ -2797,5 +2802,10 @@
 <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyC3nDHy1dARR-Pa_2jjPCjvsOR4bcILYsM'></script>
 <script src="assets/js/functions.js"></script>
 <script src="assets/js/menubar.js"></script>
+<script>
+    $(window).load(function () {
+        $(".loader").addClass("hidden");
+    });
+</script>
 </body>
 </html>
