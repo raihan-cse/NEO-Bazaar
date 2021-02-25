@@ -1565,6 +1565,16 @@ form.kreen-form-login .lost_password a::before {
     font-weight: 500;
 }
 
+/* user orders details view */
+.kreen-order-details-view {
+    height: 0;
+    overflow: hidden;
+    transition: height .3s;
+}
+.kreen-order-details-view.details-show {
+    height: auto;
+}
+
 @media (max-width:320px) {
     .slick-slider.main-banner .slide-wrap {
         padding-top: 60px;

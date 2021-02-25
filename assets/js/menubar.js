@@ -108,6 +108,13 @@ $(document).ready(function (){
     })
 
 
+
+    $(".details-view-link").click(function(e) {
+      e.preventDefault();
+      $(this).parents("tr").siblings().closest("tr").children("td:first-child").toggleClass("details-show");
+    })
+
+
   })
 
   

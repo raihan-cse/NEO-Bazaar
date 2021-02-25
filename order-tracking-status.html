@@ -20,8 +20,13 @@
     <link rel="stylesheet" type="text/css" href="assets/css/dreaming-attribute.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/bright-blue.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/bright-blue.css"/> -->
     <title>NEO Bazaar </title>
+    <style>
+        table, td {
+            border: 0;
+        }
+    </style>
 </head>
 <body>
     <div id="mySidenavLarge" class="sidenav shadow">
@@ -1260,7 +1265,7 @@
     </header>
 <!-- fixed style cart start -->
 <div class="meta-dreaming p-fixed">
-    <div class="block-minicart block-dreaming kreen-mini-cart kreen-dropdown" id="mobile-cart" tabindex="-1">
+    <div class="block-minicart block-dreaming kreen-mini-cart kreen-dropdown">
         <div class="shopcart-dropdown block-cart-link" data-kreen="kreen-dropdown">
             <a class="block-link link-dropdown" href="cart.html">
                 <span class="pe-7s-shopbag"></span>
@@ -1326,372 +1331,96 @@
     <img src="assets/images/banner-for-all2.jpg"
          class="img-responsive attachment-1920x447 size-1920x447" alt="img">
     <div class="banner-wrapper-inner">
-        <h1 class="page-title">Orders</h1>
+        <h1 class="page-title">Order Tracking</h1>
         <div role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs">
             <ul class="trail-items breadcrumb">
                 <li class="trail-item trail-begin"><a href="index.html"><span>Home</span></a></li>
-                <li class="trail-item trail-begin"><a href="dashboard.html"><span>Dashboard</span></a></li>
-                <li class="trail-item trail-end active"><span>Orders</span>
-                </li>
+                <li class="trail-item trail-begin"><a href="order-tracking.html"><span>Order Tracking</span></a></li>
+                <li class="trail-item trail-end active"><span>Tracking Step</span></li>
             </ul>
         </div>
     </div>
 </div>
-<main class="site-main  main-container no-sidebar">
+<div class="main-container no-sidebar">
+    <!-- POST LAYOUT -->
     <div class="container">
-        <div class="row">
-            <div class="main-content col-md-12">
-                <div class="page-main-content">
-                    <div class="kreen">
-                        <nav class="kreen-MyAccount-navigation">
-                            <ul>
-                                <li class="kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--dashboard">
-                                    <a href="dashboard.html">Dashboard</a>
-                                </li>
-                                <li class="kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--orders is-active">
-                                    <a href="orders.html">Orders</a>
-                                </li>
-                                <li class="kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--downloads">
-                                    <a href="wishlist.html">Favorites</a>
-                                </li>
-                                <li class="kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--edit-address">
-                                    <a href="edit-address.html">Addresses</a>
-                                </li>
-                                <li class="kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--edit-account">
-                                    <a href="edit-account.html">Account details</a>
-                                </li>
-                                <li class="kreen-MyAccount-navigation-link kreen-MyAccount-navigation-link--customer-logout">
-                                    <a href="#">Logout</a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <div class="kreen-MyAccount-content">
-                            <div class="kreen-notices-wrapper"></div>
-                            <table class="kreen-orders-table kreen-MyAccount-orders shop_table shop_table_responsive my_account_orders account-orders-table">
-                                <thead>
+        <table style="width: 100%; border-spacing: 0; margin-bottom: 0;">
+            <tbody>
+                <tr>
+                    <td style="background-color: #fff; padding: 0;">
+                        <table style="max-width: 602px; width: 100%; border-spacing: 0; margin-left: auto; margin-right: auto; margin-bottom: 0;">
+                            <tbody>
                                 <tr>
-                                    <th class="kreen-orders-table__header kreen-orders-table__header-order-number"><span class="nobr">Order</span></th>
-                                    <th class="kreen-orders-table__header kreen-orders-table__header-order-date"><span class="nobr">Date</span></th>
-                                    <th class="kreen-orders-table__header kreen-orders-table__header-order-status"><span class="nobr">Status</span></th>
-                                    <th class="kreen-orders-table__header kreen-orders-table__header-order-total"><span class="nobr">Total</span></th>
-                                    <th class="kreen-orders-table__header kreen-orders-table__header-order-actions"><span class="nobr">Actions</span></th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr class="kreen-orders-table__row kreen-orders-table__row--status-on-hold order">
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-number" data-title="Order">
-                                        <a href="#">#764</a>
-                                    </td>
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-date" data-title="Date">
-                                        <time datetime="2020-01-21T16:35:44+00:00">January 21, 2020</time>
-                                    </td>
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-status" data-title="Status">
-                                        On hold
-                                    </td>
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-total" data-title="Total">
-                                        <span class="kreen-Price-amount amount"><span class="kreen-Price-currencySymbol">£</span>159.00</span> for 2 items
-                                    </td>
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-actions" data-title="Actions">
-                                        <a href="#" class="kreen-button button view details-view-link">View</a>
+                                    <td style="background-color: #3084bb; padding: 16px 16px 8px 16px;">
+                                        <table style="width: 100%; border-spacing: 0; margin-bottom: 0;">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="text-align: center; padding: 0;">
+                                                        <h1 style="font-size: 24px; color: #fff; font-weight: 600; text-transform: uppercase; margin: 0;">order tracking: <span>order no</span></h1>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </td>
                                 </tr>
-                                <!-- details view start -->
                                 <tr>
-                                    <td style="padding:0px" colspan="6">
-                                        <div class="kreen-order-details-view">
-                                            <table>
+                                    <td style="background-color: #4396cc; padding: 8px 16px 16px 16px;">
+                                        <table style="width: 100%; border-spacing: 0; margin-bottom: 0;">
+                                            <tbody>
                                                 <tr>
-                                                    <td>
-                                                        <div class="row no-gutters">
-                                                            <div class="col-md-6">
-                                                                <h4>General Info</h4>
-                                                                <div style="text-align:left">
-                                                                    <p>Date : 12/12/12</p>
-                                                                    <p>Order Status : Completed</p>
-                                                                    <p>Payment Status : Done</p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-6">
-                                                                <h4>Shipping Info</h4>
-                                                                <div style="text-align:left">
-                                                                    <p>Arturu Sporer </p>
-                                                                    <p>Procesisng</p>
-                                                                    <p>Mohammadpur 1200,Uttara,Dhaka</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                    <td style="text-align: center; padding: 0;">
+                                                        <h1 style="font-size: 16px; color: #fff; font-weight: 400; text-transform: capitalize; margin: 0;"><span style="font-weight: 500;">shipped via: </span>Ipsum dolar</h1>
+                                                    </td>
+                                                    <td style="text-align: center; padding: 0;">
+                                                        <h1 style="font-size: 16px; color: #fff; font-weight: 400; text-transform: capitalize; margin: 0;"><span style="font-weight: 500;">status: </span>Checking Quantity</h1>
+                                                    </td>
+                                                    <td style="text-align: center; padding: 0;">
+                                                        <h1 style="font-size: 16px; color: #fff; font-weight: 400; text-transform: capitalize; margin: 0;"><span style="font-weight: 500;">expected date: </span>4-Feb-2021</h1>
                                                     </td>
                                                 </tr>
-                                                <tr>
-                                                    <td>
-                                                        <table>
-                                                            <thead>
-                                                                <tr>
-                                                                    <th class="product-thumbnail">Item</th>
-                                                                    <th>Name</th>
-                                                                    <th class="cart-product-name">Unit Price</th>
-                                                                    <th class="product-price">Quantity</th>
-                                                                    <th class="product-remove">Total</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td class="product-thumbnail-3"><a
-                                                                            href="product-details.html"><img
-                                                                                src="assets/img/shop/product/product-1.jpg"
-                                                                                alt=""></a></td>
-                                                                    <td>First Product</td>
-                                                                    <td>120</td>
-                                                                    <td>5</td>
-                                                                    <td>600</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td class="product-thumbnail-3"><a
-                                                                            href="product-details.html"><img
-                                                                                src="assets/img/shop/product/product-2.jpg"
-                                                                                alt=""></a></td>
-                                                                    <td>Second Product</td>
-                                                                    <td>160</td>
-                                                                    <td>10</td>
-                                                                    <td>1600</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td colspan="2">Subtotal : 2200</td>
-                                                                    <td colspan="3">Total : 2350</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </div>
+                                            </tbody>
+                                        </table>
                                     </td>
                                 </tr>
-                                <!-- details view end -->
-                                <tr class="kreen-orders-table__row kreen-orders-table__row--status-on-hold order">
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-number" data-title="Order">
-                                        <a href="#">#763</a>
-                                    </td>
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-date" data-title="Date">
-                                        <time datetime="2020-01-21T14:57:29+00:00">January 21, 2020</time>
-
-                                    </td>
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-status" data-title="Status">
-                                        On hold
-                                    </td>
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-total" data-title="Total">
-                                        <span class="kreen-Price-amount amount"><span class="kreen-Price-currencySymbol">£</span>1,862.00</span> for 18 items
-                                    </td>
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-actions" data-title="Actions">
-                                        <a href="#" class="kreen-button button view details-view-link">View</a>
-                                    </td>
-                                </tr>
-                                <!-- details view start -->
                                 <tr>
-                                    <td style="padding:0px" colspan="6">
-                                        <div class="kreen-order-details-view">
-                                            <table>
+                                    <td style="background-color: #f5f5f5; padding: 0;">
+                                        <table style="width: 100%; border-spacing: 0;">
+                                            <tbody>
                                                 <tr>
-                                                    <td>
-                                                        <div class="row no-gutters">
-                                                            <div class="col-md-6">
-                                                                <h4>General Info</h4>
-                                                                <div style="text-align:left">
-                                                                    <p>Date : 12/12/12</p>
-                                                                    <p>Order Status : Completed</p>
-                                                                    <p>Payment Status : Done</p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-6">
-                                                                <h4>Shipping Info</h4>
-                                                                <div style="text-align:left">
-                                                                    <p>Arturu Sporer </p>
-                                                                    <p>Procesisng</p>
-                                                                    <p>Mohammadpur 1200,Uttara,Dhaka</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                    <td style="width: 100%">
+                                                        <img style="width: 100%;" src="assets/images/ot-4.png" alt="">
                                                     </td>
                                                 </tr>
-                                                <tr>
-                                                    <td>
-                                                        <table>
-                                                            <thead>
-                                                                <tr>
-                                                                    <th class="product-thumbnail">Item</th>
-                                                                    <th>Name</th>
-                                                                    <th class="cart-product-name">Unit Price</th>
-                                                                    <th class="product-price">Quantity</th>
-                                                                    <th class="product-remove">Total</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td class="product-thumbnail-3"><a
-                                                                            href="product-details.html"><img
-                                                                                src="assets/img/shop/product/product-1.jpg"
-                                                                                alt=""></a></td>
-                                                                    <td>First Product</td>
-                                                                    <td>120</td>
-                                                                    <td>5</td>
-                                                                    <td>600</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td class="product-thumbnail-3"><a
-                                                                            href="product-details.html"><img
-                                                                                src="assets/img/shop/product/product-2.jpg"
-                                                                                alt=""></a></td>
-                                                                    <td>Second Product</td>
-                                                                    <td>160</td>
-                                                                    <td>10</td>
-                                                                    <td>1600</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td colspan="2">Subtotal : 2200</td>
-                                                                    <td colspan="3">Total : 2350</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
+                                                <tr style="display: none;">
+                                                    <td style="width: 100%">
+                                                        <img style="width: 100%;" src="assets/images/ot-3.png" alt="">
                                                     </td>
                                                 </tr>
-                                            </table>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <!-- details view end -->
-                                <tr class="kreen-orders-table__row kreen-orders-table__row--status-on-hold order">
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-number" data-title="Order">
-                                        <a href="#">#431</a>
-                                    </td>
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-date" data-title="Date">
-                                        <time datetime="2020-01-01T14:27:46+00:00">January 1, 2020</time>
-                                    </td>
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-status" data-title="Status">
-                                        On hold
-                                    </td>
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-total" data-title="Total">
-                                        <span class="kreen-Price-amount amount"><span class="kreen-Price-currencySymbol">£</span>6,643.00</span> for 57 items
-                                    </td>
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-actions" data-title="Actions">
-                                        <a href="#" class="kreen-button button view details-view-link">View</a>
-                                    </td>
-                                </tr>
-                                <!-- details view start -->
-                                <tr>
-                                    <td style="padding:0px" colspan="6">
-                                        <div class="kreen-order-details-view">
-                                            <table>
-                                                <tr>
-                                                    <td>
-                                                        <div class="row no-gutters">
-                                                            <div class="col-md-6">
-                                                                <h4>General Info</h4>
-                                                                <div style="text-align:left">
-                                                                    <p>Date : 12/12/12</p>
-                                                                    <p>Order Status : Completed</p>
-                                                                    <p>Payment Status : Done</p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-6">
-                                                                <h4>Shipping Info</h4>
-                                                                <div style="text-align:left">
-                                                                    <p>Arturu Sporer </p>
-                                                                    <p>Procesisng</p>
-                                                                    <p>Mohammadpur 1200,Uttara,Dhaka</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                <tr style="display: none;">
+                                                    <td style="width: 100%">
+                                                        <img style="width: 100%;" src="assets/images/ot-2.png" alt="">
                                                     </td>
                                                 </tr>
-                                                <tr>
-                                                    <td>
-                                                        <table>
-                                                            <thead>
-                                                                <tr>
-                                                                    <th class="product-thumbnail">Item</th>
-                                                                    <th>Name</th>
-                                                                    <th class="cart-product-name">Unit Price</th>
-                                                                    <th class="product-price">Quantity</th>
-                                                                    <th class="product-remove">Total</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td class="product-thumbnail-3"><a
-                                                                            href="product-details.html"><img
-                                                                                src="assets/img/shop/product/product-1.jpg"
-                                                                                alt=""></a></td>
-                                                                    <td>First Product</td>
-                                                                    <td>120</td>
-                                                                    <td>5</td>
-                                                                    <td>600</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td class="product-thumbnail-3"><a
-                                                                            href="product-details.html"><img
-                                                                                src="assets/img/shop/product/product-2.jpg"
-                                                                                alt=""></a></td>
-                                                                    <td>Second Product</td>
-                                                                    <td>160</td>
-                                                                    <td>10</td>
-                                                                    <td>1600</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td colspan="2">Subtotal : 2200</td>
-                                                                    <td colspan="3">Total : 2350</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
+                                                <tr style="display: none;">
+                                                    <td style="width: 100%">
+                                                        <img style="width: 100%;" src="assets/images/ot-1.png" alt="">
                                                     </td>
                                                 </tr>
-                                            </table>
-                                        </div>
+                                            </tbody>
+                                        </table>
                                     </td>
                                 </tr>
-                                <!-- details view end -->
-                                <tr class="kreen-orders-table__row kreen-orders-table__row--status-on-hold order">
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-number" data-title="Order">
-                                        <a href="#">#430</a>
-                                    </td>
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-date" data-title="Date">
-                                        <time datetime="2020-01-01T14:15:57+00:00">January 1, 2020</time>
-                                    </td>
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-status" data-title="Status">
-                                        On hold
-                                    </td>
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-total" data-title="Total">
-                                        <span class="kreen-Price-amount amount"><span class="kreen-Price-currencySymbol">£</span>256.00</span> for 4 items
-                                    </td>
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-actions" data-title="Actions">
-                                        <a href="#" class="kreen-button button view">View</a>
-                                    </td>
-                                </tr>
-                                <tr class="kreen-orders-table__row kreen-orders-table__row--status-on-hold order">
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-number" data-title="Order">
-                                        <a href="#">#281</a>
-
-                                    </td>
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-date" data-title="Date">
-                                        <time datetime="2018-12-25T13:46:40+00:00">December 25, 2018</time>
-                                    </td>
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-status" data-title="Status">
-                                        On hold
-                                    </td>
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-total" data-title="Total">
-                                        <span class="kreen-Price-amount amount"><span class="kreen-Price-currencySymbol">£</span>56.00</span> for 1 item
-                                    </td>
-                                    <td class="kreen-orders-table__cell kreen-orders-table__cell-order-actions" data-title="Actions">
-                                        <a href="#" class="kreen-button button view">View</a></td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- <div class="tracking-step">
+            <img class="w-100 img-fluid" src="assets/images/shipment-tracking.jpg" alt="">
+        </div> -->
     </div>
-</main>
+</div>
 <footer id="footer" class="footer style-01">
     <div class="section-001 section-009">
         <div class="container">
@@ -1796,23 +1525,23 @@
 <div class="footer-device-mobile">
     <div class="wapper">
         <div class="footer-device-mobile-item device-home">
-            <a href="shop.html">
+            <a href="index.html">
 					<span class="icon">
 						<span class="pe-7s-home"></span>
 					</span>
-                Shop
+                Home
             </a>
         </div>
         <div class="footer-device-mobile-item device-home device-wishlist">
-            <a href="#" class="footer-search-open">
+            <a href="wishlist.html">
 					<span class="icon">
-						<span class="pe-7s-search"></span>
+						<span class="pe-7s-like"></span>
 					</span>
-                Search
+                Wishlist
             </a>
         </div>
         <div class="footer-device-mobile-item device-home device-cart">
-            <a href="#" class="footer-cart-open">
+            <a href="cart.html">
 					<span class="icon">
 						<span class="pe-7s-shopbag"></span>
 						<span class="count-icon">
@@ -1822,14 +1551,14 @@
                 <span class="text">Cart</span>
             </a>
         </div>
-        <!-- <div class="footer-device-mobile-item device-home device-user">
+        <div class="footer-device-mobile-item device-home device-user">
             <a href="my-account.html">
 					<span class="icon">
 						<span class="pe-7s-user"></span>
 					</span>
                 Account
             </a>
-        </div> -->
+        </div>
     </div>
 </div>
 <a href="#" class="backtotop active">
