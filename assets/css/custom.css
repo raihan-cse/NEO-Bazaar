@@ -17,7 +17,7 @@
     bottom: 0;
     left: 0;
     text-align: center;
-    background-color: #fff;
+    background-color: #fbfbfb;
     z-index: 1010;
 }
 .loader .loading-image {
