@@ -17,22 +17,21 @@
     bottom: 0;
     left: 0;
     text-align: center;
+    background-color: #fff;
     z-index: 1010;
 }
 .loader .loading-image {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: #fff;
 }
 .loader .loading-image img {
     position: absolute;
     top: 50%;
     left: 50%;
-    background-color: #fff;
 }
 .loader.hidden {
-    animation: fadeOut 1.5s ease-out;
+    animation: fadeOut .3s ease-out;
     animation-fill-mode: forwards;
 }
 
