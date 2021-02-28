@@ -1402,12 +1402,6 @@ div.quantity .btn-number.quantity-minus::before {
 }
 
 
-/* contact page */
-
-.kreen-google-maps iframe {
-    width: 100%;
-    height: 600px;
-}
 
 
 /* privacy policy page start */
@@ -1503,6 +1497,11 @@ div.quantity .btn-number.quantity-minus::before {
 }
 
 /* contact page start */
+.kreen-google-maps iframe {
+    width: 100%;
+    height: 600px;
+}
+
 .az-custom-box p {
     margin-top: -4px;
     margin-bottom: 28px;
